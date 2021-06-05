@@ -7,5 +7,26 @@ This website is specially addressed to new guests and potencial visitors to let 
 
 Visitors can find in the interactive map the exact location of the appartament as well as those of some places of interets as museums, restaurants etc.
 
-This site lets guests and potencial visitors to have a direct contact with the apartment  owner to solve any kind of questions that may arise.
+This site lets guests and potencial visitors to have a direct contact with the owner to solve any kind of questions that may arise.
+
+## 1.1 User Story: 
+### As a guest I want to:
+- Find the address of the apartment 
+
+- See images of the apartment 
+
+- Find the instruction on how to arrive to the flat
+
+- See the amenities provided 
+
+- Make reservations of the flat. 
+
+- See the times for check-in and check-out 
+
+- Have direct contact with the owner of the flat. 
+
+- Spot on a map the location of the flat and places of intrest ATMs, Supermarkets, etc..
+
+- Check the public transportation availability. 
+
 
