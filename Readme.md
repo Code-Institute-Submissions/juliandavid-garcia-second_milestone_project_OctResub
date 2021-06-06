@@ -19,14 +19,18 @@ This site lets guests and potencial visitors to have a direct contact with the o
 
 - See the amenities provided 
 
-- Make reservations of the flat. 
+- Make a reservation 
 
-- See the times for check-in and check-out 
+- See the timetables for check-in and check-out 
 
 - Have direct contact with the owner of the flat. 
 
 - Spot on a map the location of the flat and places of intrest ATMs, Supermarkets, etc..
 
 - Check the public transportation availability. 
+
+- have access to its social media
+
+
 
 
