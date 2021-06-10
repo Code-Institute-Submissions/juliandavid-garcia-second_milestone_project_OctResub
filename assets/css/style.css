@@ -1,0 +1,11 @@
+header{
+    background-color: antiquewhite;
+    height: 10%;
+    width: 100%;
+}
+#logo {
+    top: 10px;
+    position: absolute;
+    margin-left: 20px;
+    text-decoration: none;
+}

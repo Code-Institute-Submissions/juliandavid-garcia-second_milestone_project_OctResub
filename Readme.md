@@ -31,6 +31,9 @@ This site lets guests and potencial visitors to have a direct contact with the o
 
 - have access to its social media
 
+#credits
+https://www.behance.net/gallery/101506863/Palma-de-cera
+palm tree
 
 
 
