@@ -1,3 +1,4 @@
+/*--Header--*/
 header{
     background-color: antiquewhite;
     height: 10%;
@@ -8,4 +9,34 @@ header{
     position: absolute;
     margin-left: 20px;
     text-decoration: none;
+}
+/*--End-Header--*/
+
+#hero-image{
+    height: 800px;
+    width: 100%;
+    background: url(../images/hero-window.jpg) no-repeat bottom right fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+    
+}
+h1{
+    color:#c6bb9b;
+    font-size: 80px;
+    text-align:center;
+    padding: 13%;
+}
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.1);
 }
