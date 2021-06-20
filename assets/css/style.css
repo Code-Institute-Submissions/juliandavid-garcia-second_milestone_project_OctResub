@@ -17,6 +17,8 @@ margin-top: 0px;
 line-height: 0.6;
 margin-left: 7px;
 }
+/*--responsive-logo*/
+
 #menu-bar {
 margin-top: 5%;
 padding: 0px, 0px, 10px;
@@ -124,7 +126,7 @@ margin-top: 10px;
 .background-image{
   height: 822px;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
    
   #black-side{
     padding-left: 0px;
@@ -138,4 +140,8 @@ margin-top: 10px;
   width: 90%;
 }
 
+@media screen and (max-width: 768px) {
+
+
+}
 
