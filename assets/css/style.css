@@ -173,7 +173,7 @@ padding-left: 2.2%;
     position: absolute;
     top: 0;
     left: 0;
-    height: 822px;
+    height: 822.5px;
     width: 100%;
     background-color: rgba(0,0,0,0.8);
 }
@@ -225,6 +225,7 @@ margin-top: 10px;
   width: 90%;
 }
 
+
 @media screen and (max-width: 768px) {
 
   #logo{
@@ -261,5 +262,43 @@ margin-top: 10px;
 
 }
 }
+@media screen and (width: 1024px){
+  #amenities ul {
+    padding-left: 10%;
+    color:aqua;
+  }
+  #amenities{
+  width: 102.5%;
+  }
+  .text-icon-1{
+    padding-left: 3%;
+    }
+    .text-icon-2{
+      padding-left: 6%;
+      }
+      .text-icon-3{
+        padding-left: 5%;
+        }
+        .text-icon-4{
+          padding-left: 1.3%;
+          }
+          .text-icon-5{
+            padding-left: 1.6%;
+            }
+            .text-icon-6{
+              padding-left: 0.5%;
+              }
+              .text-icon-7{
+                padding-left: 2.2%;
+                }
+                .text-icon-8{
+                  padding-left: 5.5%;
+                  }
+                  .text-icon-9{
+                    padding-left: 2%;
+                    }
+                    .text-icon-10{
+                      padding-left: 1.7%;
+                      }
 
-
+}
