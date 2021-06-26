@@ -262,6 +262,7 @@ margin-top: 10px;
 
 }
 }
+/*ipod pro responsiveness*/
 @media screen and (width: 1024px){
   #amenities ul {
     padding-left: 10%;
@@ -301,4 +302,10 @@ margin-top: 10px;
                       padding-left: 1.7%;
                       }
 
+}
+/*ipad  responsiveness*/
+@media screen and (width: 768px){
+  #outer-image {
+    width: 145.5%;
+}
 }
