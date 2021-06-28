@@ -37,9 +37,17 @@ padding: 0px, 0px, 10px;
 .nav-link:focus, .nav-link:hover {
     color: #e9d434;
 }
+#gif {
+  height: 50px;
+  width: 50px;
+  margin-left: 38%;
+  opacity: 1;
+  margin-top: 10%;
+}
 hr{
   position: relative;
   top:20%;
+  margin-right: 15%;
 }
 /*--End-Header--*/
 /*--start Amenities--*/
@@ -201,13 +209,6 @@ margin-top: 10px;
         transform: scale(2);
     }
 }
-#gif{
-  height:50px ;
-  width: 50px;
-  margin-left: 10%;
-  opacity: 1;
-  margin-top: 10%;
-}
 .background-image{
   height: 822px;
 }
@@ -241,7 +242,7 @@ margin-top: 10px;
   color:#0a0a0a;
   font-size: 40px;
   text-align:center;
-  margin-top: 50%;
+  margin-top:40%;
   margin-right: -10%;
 }
 #small-letter{
@@ -249,18 +250,29 @@ margin-top: 10px;
   text-align:center;
   margin-left: 10px;
   color: gray;
+  margin-right:-10%;
 }
 .col-md-6{
   padding-left: 50px;
   padding-right: 0px;
   height: 550px;
 }
-
+#gif {
+  height: 70px;
+  width: 70px;
+  margin-left: 45%;
+  opacity: 1;
+  margin-top: 9%;
+}
+hr{
+  margin-left: 10%;
+  margin-top: 10%;
+}
 #amenities {
   background: #0a0a0a;
   color:#ffffff;
   font-family: "heebo";
-  height:800px;
+  height:400px;
   width:120%;
   padding-top: 10%;
 }
@@ -317,6 +329,21 @@ position: absolute;
     padding-left: 10%;
     color:aqua;
   }
+  #logo{
+    position: relative;
+    top:9%;
+    line-height: 0.9;
+}
+#gif {
+  height: 70px;
+  width: 70px;
+  margin-left: 37.5%;
+  opacity: 1;
+  margin-top: 9%;
+}
+hr{
+  margin-right: 10%;
+}
   #amenities{
   width: 102.5%;
   height: 600px;
@@ -360,6 +387,11 @@ position: absolute;
 }
 /*ipad  responsiveness*/
 @media screen and (width: 768px){
+  #logo{
+    position: relative;
+    top:10%;
+    line-height: 0.9;
+ }
   #outer-image {
     width: 145%;
     height: 800px;
@@ -379,9 +411,13 @@ position: absolute;
   background: #0a0a0a;
   color:#ffffff;
   font-family: "heebo";
-  height:720px;
+  height:430px;
   width:120%;
   padding-top: 0%;
+}
+#amenities ul{
+  padding-left: 15%;
+ 
 }
 .material-icons {
   font-family: 'Material Icons';
@@ -445,10 +481,10 @@ position: absolute;
                     }
                     #title{
                       color:#0a0a0a;
-                      font-size: 70px;
+                      font-size: 60px;
                       text-align:center;
                       margin-top: 50%;
-                      margin-right: 10%;
+                      margin-right: 20%;
                       margin-left: 0%
                   
                     }
@@ -458,5 +494,13 @@ position: absolute;
                       margin-right: 50px;
                       color: gray;
                   }
+                  #gif {
+                    height: 50px;
+                    width: 50px;
+                    margin-left: 38%;
+                    opacity: 1;
+                    margin-top: 10%;
+                    display: none;
+                }
 
 }
