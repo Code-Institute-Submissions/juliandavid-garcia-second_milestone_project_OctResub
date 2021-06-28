@@ -24,7 +24,7 @@ margin-left: 7px;
 /*--menu--*/
 
 #menu-bar {
-margin-top: 5%;
+margin-top: 10%;
 padding: 0px, 0px, 10px;
 }
 .nav-link {
@@ -48,7 +48,7 @@ hr{
   color:#ffffff;
   font-family: "heebo";
   height:822px;
- width: 101%;
+ width: 101.7%;
 
 }
 .amenities-title{
@@ -134,13 +134,11 @@ padding-left: 2.2%;
                   padding-left: 1.3%;
                   }
 
-.amen-text{
 
-}
 /*--End Amenities--*/
 #outer-image{
   height: 822px;
-    width: 115%;
+    width: 114.8%;
         overflow: hidden;
     position: relative;
 }
@@ -158,12 +156,14 @@ padding-left: 2.2%;
     font-size: 70px;
     text-align:center;
     margin-top: 40%;
+    margin-right: 10%;
+    margin-left: 0%
 
 }
 #small-letter{
     font-size: 20px;
-    text-align:justify;
-    margin-left: 50px;
+    text-align:center;
+    margin-right: 50px;
     color: gray;
 }
 .row{
@@ -211,6 +211,9 @@ margin-top: 10px;
 .background-image{
   height: 822px;
 }
+.row {
+  --bs-gutter-x: .0rem;
+  }
 @media screen and (max-width: 1024px) {
    
   #black-side{
@@ -230,7 +233,7 @@ margin-top: 10px;
 
   #logo{
     position: relative;
-    top:5%;
+    top:15%;
     line-height: 0.9;
 }
 
@@ -238,7 +241,8 @@ margin-top: 10px;
   color:#0a0a0a;
   font-size: 40px;
   text-align:center;
-  margin-top: 20%;
+  margin-top: 50%;
+  margin-right: -10%;
 }
 #small-letter{
   font-size: 15px;
@@ -247,19 +251,64 @@ margin-top: 10px;
   color: gray;
 }
 .col-md-6{
-  padding-left: 120px;
-  padding-right: 50px;
+  padding-left: 50px;
+  padding-right: 0px;
+  height: 550px;
 }
 
 #amenities {
   background: #0a0a0a;
   color:#ffffff;
   font-family: "heebo";
-  height:400px;
+  height:800px;
   width:120%;
   padding-top: 10%;
+}
+#amenities li{
+  display:block;
+  margin-right: 10%;
+  margin-top: 5%;
 
+}
 
+/*Icons--google*/
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 30px;  /* Preferred icon size */
+  display: inline;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+.text-position{
+padding-left: 5%;
+font-size: 20px;
+font-weight: normal;
+margin-bottom: 9%;
+position: absolute;
+}
+
+.container, .container-md, .container-sm {
+  max-width: 768px;
+}
+.row {
+  --bs-gutter-x: .0rem;
 }
 }
 /*ipod pro responsiveness*/
@@ -270,6 +319,7 @@ margin-top: 10px;
   }
   #amenities{
   width: 102.5%;
+  height: 600px;
   }
   .text-icon-1{
     padding-left: 3%;
@@ -302,10 +352,111 @@ margin-top: 10px;
                       padding-left: 1.7%;
                       }
 
+                      
+.row {
+--bs-gutter-x: .0rem;
+}
+
 }
 /*ipad  responsiveness*/
 @media screen and (width: 768px){
   #outer-image {
-    width: 145.5%;
+    width: 145%;
+    height: 800px;
 }
+#amenities li{
+  display:inline;
+  margin-right: 10%;
+  margin-top: 5%;
+
+}
+.amen-icons {
+  padding-top: 0px;
+  margin-bottom: 0px;
+  margin-top: 4%;
+}
+#amenities {
+  background: #0a0a0a;
+  color:#ffffff;
+  font-family: "heebo";
+  height:720px;
+  width:120%;
+  padding-top: 0%;
+}
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 60px;  /* Preferred icon size */
+  display: inline;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+.text-icon-1{
+  padding-left: 2.4%;
+  }
+  .text-icon-2{
+    padding-left: 5%;
+    }
+    .text-icon-3{
+      padding-left: 3.3%;
+      }
+      .text-icon-4{
+        padding-left: 0%;
+        }
+        .text-icon-5{
+          padding-left: 0%;
+          }
+          .text-icon-6{
+            padding-left: 0%;
+            }
+            .text-icon-7{
+              padding-left: 0%;
+              }
+              .text-icon-8{
+                padding-left: 3.5%;
+                }
+                .text-icon-9{
+                  padding-left: 0.3%;
+                  }
+                  .text-icon-10{
+                    padding-left: 0%;
+                    }
+                    .col-md-6{
+                      padding-left: 50px;
+                      padding-right: 0px;
+                      height: 800px;
+                    }
+                    #title{
+                      color:#0a0a0a;
+                      font-size: 70px;
+                      text-align:center;
+                      margin-top: 50%;
+                      margin-right: 10%;
+                      margin-left: 0%
+                  
+                    }
+                  #small-letter{
+                      font-size: 20px;
+                      text-align:center;
+                      margin-right: 50px;
+                      color: gray;
+                  }
+
 }
