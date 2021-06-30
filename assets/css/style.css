@@ -215,11 +215,37 @@ margin-top: 10px;
 .row {
   --bs-gutter-x: .0rem;
   }
+  /*--Carousel section*/
+  #carousel{
+    background: #918c67;
+height: 350px;
+width:101.7%;
+  }
+  .col-10 {
+    flex: 0 0 auto;
+    width: 60.3333333333%;
+    padding-left: 15%;
+    padding-top:5%;
+    padding-bottom:5%;
+    margin-left:10%
+}
+.w-100 {
+  width: 100%!important;
+  height: 750px;
+  border-radius: 2%;
+}
+  /*--END-Carousel section*/
+
 @media screen and (max-width: 1024px) {
    
   #black-side{
     padding-left: 0px;
   }
+  #carousel {
+    background: #918c67;
+    height: 350px;
+    width: 102.5%;
+}
 }
   .nav-link{
     padding:0.rem 0.rem;
@@ -322,6 +348,23 @@ position: absolute;
 .row {
   --bs-gutter-x: .0rem;
 }
+#carousel{
+  background: #918c67;
+height: 350px;
+width:120%;
+}
+.w-100 {
+  width: 100%!important;
+  height: 400px;
+}
+.col-10 {
+  flex: 0 0 auto;
+  width: 80.3333333333%;
+  padding-left: 15%;
+  padding-top:5%;
+  padding-bottom:5%;
+  margin-left:2%
+}
 }
 /*ipod pro responsiveness*/
 @media screen and (width: 1024px){
@@ -382,6 +425,19 @@ hr{
                       
 .row {
 --bs-gutter-x: .0rem;
+}
+.w-100 {
+  width: 100%!important;
+  height: 900px;
+  border-radius: 2%;
+}
+.col-10 {
+  flex: 0 0 auto;
+  width: 70%;
+  padding-left: 15%;
+  padding-top:5%;
+  padding-bottom:5%;
+  margin-left:8%
 }
 
 }
@@ -502,5 +558,11 @@ hr{
                     margin-top: 10%;
                     display: none;
                 }
+                .w-100 {
+                  width: 100%!important;
+                  height: 900px;
+                  border-radius: 2%;
+                }
+
 
 }
