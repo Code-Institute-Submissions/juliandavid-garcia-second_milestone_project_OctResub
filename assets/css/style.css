@@ -260,7 +260,13 @@ padding-left: 1px;
     color:rgba(0,0,0,0.2);
   }
  
- 
+ .slide-white{
+color:#ffffff;
+ }
+ .slide-black{
+color:black;
+}
+
   .carrousel-titles-1 li{
     display: inline-block;
     padding-left:10%;
@@ -303,9 +309,6 @@ width:101.7%;
     padding-top:5%;
     padding-bottom:5%;
     border-left: rgba(0,0,0,0.6) solid 3px;
-
- 
-    
 }
 
 .w-100 {
@@ -321,7 +324,6 @@ width:101.7%;
     padding-left: 0px;
   }
   #carousel {
-    background: #918c67;
     height: 350px;
     width: 102.5%;
 }
@@ -428,7 +430,7 @@ position: absolute;
   --bs-gutter-x: .0rem;
 }
 #carousel{
-  background: #918c67;
+
 height: 350px;
 width:120%;
 }
@@ -443,13 +445,15 @@ width:120%;
   padding-top:5%;
   padding-bottom:5%;
   margin-left:2%
+  border-left: rgba(0,0,0,0) solid 1px;
 }
+
 }
 /*ipod pro responsiveness*/
 @media screen and (width: 1024px){
   #amenities ul {
     padding-left: 10%;
-    color:aqua;
+    color:rgb(248, 250, 250);
   }
   #logo{
     position: relative;
@@ -517,7 +521,7 @@ hr{
   padding-top:5%;
   padding-bottom:5%;
   margin-left:8%
-  border-left: black solid 8px;
+  
 }
 
 }
