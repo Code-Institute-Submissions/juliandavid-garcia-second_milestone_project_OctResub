@@ -298,7 +298,7 @@ font-weight: lighter;
     font-weight: lighter;
   }
   #carousel{
-height: 350px;
+height: 800px;
 width:101.7%;
   }
   .col-8 {
@@ -313,10 +313,16 @@ width:101.7%;
 
 .w-100 {
   width: 100%!important;
-  height: 600px;
+  height: 580px;
   border-radius: 1%;
 }
   /*--END-Carousel section*/
+  /*--Review section*/
+  #review{
+width: 100%;
+height: 600px;
+background: gray;
+  }
 
 @media screen and (max-width: 1024px) {
    
