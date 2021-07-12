@@ -65,7 +65,7 @@ padding: 0px, 0px, 10px;
 }
 hr{
   position: relative;
-  top:20%;
+  top:10px;
   margin-right: 15%;
 }
 /*--End-Header--*/
@@ -317,13 +317,60 @@ width:101.7%;
   border-radius: 1%;
 }
   /*--END-Carousel section*/
-  /*--Review section*/
-  #review{
-width: 100%;
-height: 600px;
-background: gray;
-  }
+  /*--Calendar section*/
 
+  
+  #calendar{
+  
+  }
+  .col-5{
+    background-color:black;
+    color:#ffff;
+    font-size: 45px;
+ 
+    
+  }
+  .text-center{
+margin-top: 20%;
+margin-right: 10%;
+margin-left: 15%;
+  }
+  .badge {
+    display: inline-block;
+    padding: .35em .65em;
+    font-size: .75em;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+}
+.bg-secondary {
+    background-color: #ffc107!important;
+}
+#calendar .badge-title{
+  font-size:18px;
+  margin-right: 15%;
+margin-left: 25%;
+margin-top:2%;
+font-weight:lighter;
+}
+.btn {
+  margin-left: 43%;
+  font-size: 20px;
+  margin-top: 10%;
+}
+.btn-dark {
+  color: #fff;
+  background-color: #000000;
+  border-color: #e9ecef;
+}
+.hr{
+  margin-top: 45%;
+margin-left: 17%;
+}
 @media screen and (max-width: 1024px) {
    
   #black-side{
@@ -340,6 +387,9 @@ background: gray;
   .round-image{
   margin-left: 5%;
   width: 90%;
+}
+#calendar .row{
+  width:100%;
 }
 
 
@@ -380,6 +430,7 @@ background: gray;
 hr{
   margin-left: 10%;
   margin-top: 10%;
+  margin-right: 0%;
 }
 #amenities {
   background: #0a0a0a;
@@ -436,8 +487,7 @@ position: absolute;
   --bs-gutter-x: .0rem;
 }
 #carousel{
-
-height: 350px;
+height: 100%;
 width:120%;
 }
 .w-100 {
@@ -454,7 +504,35 @@ width:120%;
   margin-left:2%;
   border-left: rgba(0,0,0,0) solid 1px;
 }
-
+#calendar{
+  width:123%;
+  padding-left:0px
+}
+#calendar .row{
+  width:100%;
+}
+#calendar .badge-title {
+  font-size: 20px;
+  margin-right: 15%;
+  margin-left: 20%;
+  margin-top: 17%;
+  font-weight: lighter;
+  margin-bottom: 10%;
+}
+.col-7 {
+  flex: 0 0 auto;
+  width: 100%;
+}
+.col-5 {
+  flex: 0 0 auto;
+  width: 100%;
+}
+.hr{
+  display: none;
+}
+.btn{
+  margin-left: 41.5%;
+}
 }
 /*ipod pro responsiveness*/
 @media screen and (width: 1024px){
@@ -527,8 +605,14 @@ hr{
   padding-left: 15%;
   padding-top:5%;
   padding-bottom:5%;
-  margin-left:8%
+  margin-left:12%
   
+}
+#carousel{
+  height: 100%;
+}
+#calendar{
+  width:103.5%;
 }
 
 }
@@ -654,6 +738,21 @@ hr{
                   height: 900px;
                   border-radius: 2%;
                 }
-
+hr {
+    position: relative;
+    top: 10px;
+    margin-right: 15%;
+}
+#calendar{
+width:123%
+}
+.col-7 {
+  flex: 0 0 auto;
+  width: 49.3333333333%;
+}
+.col-5 {
+  flex: 0 0 auto;
+  width: 49.3333333333%;
+}
 
 }
