@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,600&display=swap');
 
 
-
+div#map {
+  min-height: 360px;
+margin-top: 11.5%;}
 /*--Header--*/
 #logo{
    position: relative;
@@ -317,15 +319,7 @@ width:101.7%;
   border-radius: 1%;
 }
   /*--END-Carousel section*/
-  /*--Calendar section*/
-
-  
-  #review{
-  width:101.7%;
-  height:400px;
-  background-color:
-  #111111;
-  }
+  /*--Calendar section*/  
   .col-5{
     background-color:black;
     color:#ffff;
@@ -374,6 +368,13 @@ font-weight:lighter;
   margin-top: 45%;
 margin-left: 17%;
 }
+#review{
+  width:98.4%;
+  height:400px;
+  background-color:
+  #111111;
+  }
+
 .margin-paragraph {
   margin-top: 25%;
   width: 60%;
@@ -403,12 +404,7 @@ margin-left: 17%;
 #calendar .row{
   width:100%;
 }
-#review{
-  width:102.3%;
-  height:400px;
-  background-color:
-  #111111;
-  }
+
 .round-image-1{
   height: 100px;
     border-radius: 50%;
@@ -681,6 +677,12 @@ hr{
 #calendar{
   width:103.5%;
 }
+#review{
+  width:102.3%;
+  height:400px;
+  background-color:
+  #111111;
+  }
 .margin-paragraph {
   margin-top: 25%;
   width: 60%;
