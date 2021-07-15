@@ -254,13 +254,20 @@
 <footer></footer>
 <script>
   function initMap(){
-    var map = new google.maps.Map(document.getElementById("map"),{
-      zoom:3,
-      center: {
-lat:4.5350,
-lng:-75.6757
-      }
-    });
+    //map options
+    var options ={
+      zoom:4,
+      center: {lat:4.5350,lng:-75.6757}
+    }
+    //new map
+    var map = new 
+    google.maps.Map(document.getElementById("map"), options);
+
+    //add markers
+    var marker = new google.maps.Marker({
+      position:{lat:4.5744368,lng:-75.6539091},
+      map:map,
+    })
   }
 </script>
 <script>
