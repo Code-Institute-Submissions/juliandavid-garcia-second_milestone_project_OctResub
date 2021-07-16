@@ -256,8 +256,8 @@
   function initMap(){
     //map options
     var options ={
-      zoom:4,
-      center: {lat:4.5350,lng:-75.6757}
+      zoom:15,
+      center: {lat:4.5744359,lng:-75.64480}
     }
     //new map
     var map = new 
@@ -265,9 +265,18 @@
 
     //add markers
     var marker = new google.maps.Marker({
-      position:{lat:4.5744368,lng:-75.6539091},
+      position:{lat:4.5744500,lng:-75.645177},
       map:map,
-    })
+      icon:"https://img.icons8.com/color/48/000000/order-delivered.png"
+    });
+
+    var infoWindow = new google.maps.infoWindow({
+      content:'<h1>Flats Armenia</h1>'
+    });
+    
+    marker.addListener('click', function(){
+      infoWindow.open(map, marker);
+    });
   }
 </script>
 <script>
