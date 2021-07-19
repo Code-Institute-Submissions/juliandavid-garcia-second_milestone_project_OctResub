@@ -387,7 +387,7 @@ margin-top: 2%;
 width:100%;
 }
 #footer{
-  height: 150px;
+  height: 180px;
   width:98.4%;
   background-color:black;
   color:#ffff;
@@ -397,6 +397,7 @@ width:100%;
 }
 #social{
 list-style:  none;
+margin-top: 20px;
 }
 .horizontal{
   display: inline;
@@ -406,11 +407,25 @@ list-style:  none;
   font-weight: 400;
   font-size: 40px;
   margin-left: 50px;
-  margin-top: 5%;
+  margin-top: 4.5%;
 }
 .style{
   font-size: 40px;
 }
+.info{
+  margin-top: 1px;
+  margin-left: 80%;
+}
+.col-5{
+  margin-top: 30px;
+  font-size: 17px;
+}
+#contact{
+  text-align: right;
+  padding-right: 80px;
+  padding-top: 20px;
+}
+
 
 @media screen and (max-width: 1024px) {
    
@@ -644,7 +659,13 @@ width: 122%;
   margin-top: 2%;
   margin-left: 0%;
 }
-
+#contact {
+  text-align: right;
+  padding-right: 20px;
+  padding-top: 0px;
+  line-height: 8px;
+  margin-top: 0px;
+}
 
 }
 /*ipod pro responsiveness*/
@@ -919,5 +940,13 @@ div#map {
   margin-top: 2%;
   margin-left: 0%;
 }
+#contact {
+  text-align: right;
+  padding-right: 20px;
+  padding-top: 50px;
+  line-height: 8px;
+  margin-top: 0px;
+}
+
 
 }
