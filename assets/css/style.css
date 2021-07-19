@@ -425,6 +425,9 @@ margin-top: 20px;
   padding-right: 80px;
   padding-top: 20px;
 }
+.bold{
+font-weight: bold;
+}
 
 
 @media screen and (max-width: 1024px) {
@@ -477,6 +480,15 @@ margin-top: 20px;
   margin-top: 2%;
   margin-left: 0%;
 }
+li a{
+  text-decoration: none;
+  color: #ffffff;
+}
+a:hover {
+  color: #f8f9fa;
+  text-decoration: none;
+}
+
 
 
 @media screen and (max-width: 768px) {
