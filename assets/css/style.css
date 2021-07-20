@@ -430,6 +430,15 @@ font-weight: bold;
 margin-top: 30px;
   font-size: 17px;
 }
+.jumbotron {
+  border-radius: 1%;
+  padding: 4rem 2rem;
+  margin: 15%;
+}
+.jumbo-title{
+  text-align: center;
+  font-size: 40px;
+}
 
 
 

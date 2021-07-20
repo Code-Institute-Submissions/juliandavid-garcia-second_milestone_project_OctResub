@@ -25,8 +25,21 @@
   <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
   <title>Flats Armenia</title>
   <script type="text/javascript" src="/js/script.js"></script>
+  <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("user_O2hR2EYVQ7P3D5HWhwEbW");
+      emailjs.send("gmail", "flatsarmenia", "Flats Armenia", userID);
+   })();
+</script>
 </head>
 <body>
+  <form onsubmit="return sendMail(this);" method="POST">
+    <div class="jumbotron">
+      <p class="jumbo-title">Contact us to make a reservation</p>
+    <div class="alert alert-secondary" role="alert">
     <div class="mb-3">
         <label for="exampleFormControlInput1" class="form-label">Email address</label>
         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
@@ -45,6 +58,10 @@
         <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
       </div>
+    </div>
+</div>
+</body>
+</form>
       <script>
         var APIkey = "AIzaSyD6F2UYda2LUohDHbhWN4rVdmyiPNs7oMw";
       </script>
