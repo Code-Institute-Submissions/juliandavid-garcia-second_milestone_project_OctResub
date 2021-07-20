@@ -31,37 +31,25 @@
 <script type="text/javascript">
    (function(){
       emailjs.init("user_O2hR2EYVQ7P3D5HWhwEbW");
-      emailjs.send("gmail", "flatsarmenia", "Flats Armenia", userID);
    })();
 </script>
 </head>
 <body>
-  <form onsubmit="return sendMail(this);" method="POST">
+  
     <div class="jumbotron">
       <p class="jumbo-title">Contact us to make a reservation</p>
     <div class="alert alert-secondary" role="alert">
-    <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Email address</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-      </div>
-<label for="start">Start date:</label>
-
-<input type="date" id="start" name="trip-start"
-       value="2018-07-22"
-       min="2018-01-01" max="2018-12-31">
-       <label for="start">End date:</label>
-
-<input type="date" id="end" name="trip-start"
-       value="2018-07-22"
-       min="2018-01-01" max="2018-12-31">
-      <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-      </div>
-      <input type="submit" value="Submit">
+      <div class="center-form">
+        <form onsubmit="return sendMail(this);">
+            <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
+            <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+            <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Project Description" required></textarea>
+            <button type="submit" class="btn btn-secondary center-block">Send Project Request</button>
+        </form>
+    </div>
     </div>
 </div>
-</form>
+<script src="assets/js/sendEmail.js"></script>
 </body>
 
       <script>

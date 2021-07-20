@@ -1,5 +1,5 @@
 function sendMail(contactForm) {
-    emailjs.send("gmail", "flatsarmenia", {
+    emailjs.send("service_1o5em7y","flatsarmenia", { 
         "from_name": contactForm.name.value,
         "from_email": contactForm.emailaddress.value,
         "project_request": contactForm.projectsummary.value
@@ -14,3 +14,4 @@ function sendMail(contactForm) {
     );
     return false;  // To block from loading a new page
 }
+
