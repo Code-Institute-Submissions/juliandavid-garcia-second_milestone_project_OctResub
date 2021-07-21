@@ -30,12 +30,15 @@
 </script>
 <script type="text/javascript">
    (function(){
-      emailjs.init("user_O2hR2EYVQ7P3D5HWhwEbW");
+      emailjs.init("user_EbLvG3iACRgi6RcDBExzK");
    })();
 </script>
 </head>
-<body>
-  
+<body class="bgn">
+  <div id="logo-form"><a href="index.html">
+    <p id="logo-form-1">Flats</p>
+    <p id="logo-form-2">Armenia</p></a>
+  </div>
     <div class="jumbotron">
       <p class="jumbo-title">Contact us to make a reservation</p>
     <div class="alert alert-secondary" role="alert">
@@ -43,8 +46,8 @@
         <form onsubmit="return sendMail(this);">
             <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
             <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
-            <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Project Description" required></textarea>
-            <button type="submit" class="btn btn-secondary center-block">Send Project Request</button>
+            <textarea rows="5" name="message" class="form-control" id="message" placeholder="Writer your message here" required></textarea>
+            <button type="submit" class="btn btn-secondary center-block">Send Send!</button>
         </form>
     </div>
     </div>
