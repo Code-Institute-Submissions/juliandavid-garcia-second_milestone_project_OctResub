@@ -104,6 +104,38 @@ This website was built using:
  
   - [Results Here](testing.md)
  
+## 5. Deployment
+- **Open github**
+- **Open workspace/second_milestone_project and go to setting.**
+![setting](/Readme_images/second-milestone-project.png)
+
+- **Open setting and scroll down until Github Pages**
+![pages](/Readme_images/github-pages.png)
+
+
+- **Click on the None dropdowmenu and select the branch to publish : master**
+![master](/Readme_images/github-master.png)
+
+
+-  **Click save**
+![save](/Readme_images/github-master-save.png)
+- **The website is now deployed.**
+- [Deployed site address](https://juliandavid-garcia.github.io/second_milestone_project/index.html)
+
+## 6. To clon the repository using GitHub Desktop
+- On GitHub, navigate to the main page of the repository.
+
+
+- Click on the button "Code"
+
+![code](/Readme_images/code.png)
+- Select "Open with GitHub Desktop" to clone and open the respository with GitHub Desktop.
+![Desktop](/Readme_images/open-with.png)
+
+- Choose the destination folder for your cloned file
+![Desktop](/Readme_images/foder-clone.png)
+
+- You have the Repository cloned. 
 
 #credits
 https://www.behance.net/gallery/101506863/Palma-de-cera
