@@ -742,7 +742,7 @@ width:120%;
   display: none;
 }
 .btn{
-  margin-left: 12%;
+  margin-left: 41.5%;
 }
 #review {
   width: 123%;
@@ -795,6 +795,9 @@ width: 122%;
   padding: 4rem 2rem;
   margin: 15%;
   margin-top:20%;
+}
+form .btn{
+  margin-left: 12%;
 }
 
 }
