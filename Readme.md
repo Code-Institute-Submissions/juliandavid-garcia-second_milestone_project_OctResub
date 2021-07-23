@@ -29,8 +29,8 @@ This site lets guests and potencial visitors to have a direct contact with the o
 
 - have access to its social media
 
-## 1. 2  [Wireframes ](/wireframe_images/wireframes.jpg)
-[See Wireframes ](/wireframe_images/wiframes.jpg)
+## 1. 2  [Wireframes](wireframe.md)
+[See Wireframes ](wireframe.md)
 
 These wireframes where designed  with [Figma](https://www.figma.com/)
 which is a very instuitive prototyping tool that focuses in the user interface and user experience design.
@@ -88,6 +88,8 @@ In the Map section People can find where exactly the apartment is located as wel
 This website was built using:
 - [HTML](https://html.com) **HTML**is used to create pages and make them functional.
 - [CSS](https://css3.com) **Css** is used to style the page
+- [JavaScript](https://JavaScript.com) **JavaScript** to make websites interactive.
+- [Jquery](https://jquery.com) **Jquery** is a library that facilitates the use of javaScript in the site.
 - [Boostrap](https://Boostrap.com) **Boostrap** is used also to style the page
 - [Fontawesome](https://fontawesome.com/) **Fontawesome** used to add icons
 - [Googlefont](https://fonts.google.com/) **Googlefont** used to set the font
@@ -98,7 +100,8 @@ This website was built using:
 - [Responsivedesign](http://ami.responsivedesign.is/) **Responsive Design** to show how it looks in defferent devices. 
 - [Google.API](https://developers.google.com/maps) **Google.API** Used to place the most important places as well as the location of the appartment in google maps.  
 - [EmailJs](https://www.emailjs.com/) **EmailJS** Used to link my personal email to the website.
-- [EmailJs](https://elfsight.com/) **Elfsight** Used to show the availability of the appartment in the calendar. 
+- [Elfsight](https://elfsight.com/) **Elfsight** Used to show the availability of the appartment in the calendar. 
+
 
 ## 4. Testing
  
@@ -136,6 +139,49 @@ This website was built using:
 ![Desktop](/Readme_images/foder-clone.png)
 
 - You have the Repository cloned. 
+
+## 7. Credits:
+The slide right menu used for the devices up to 576px was taken from [w3schools :](https://www.w3schools.com/howto/howto_js_curtain_menu.asp)
+
+- [Slide Right menu](https://getbootstrap.com/docs/4.1/components/dropdowns/)
+
+The form was built following [Bootstrap](www.Bootstrap.com):
+
+- [Form](https://getbootstrap.com/docs/5.0/forms/form-control/)
+
+The icons where taken from:
+- [Font awesome](https://fontawesome.com/icons)
+- [Icons8](https://icons8.com/)
+
+The Carousel effect used in the portfolio images was taken from : 
+ - [Carousel](https://getbootstrap.com/docs/5.0/components/carousel/#with-captions)
+
+The calendar was taken from :
+- [Calendar](https://elfsight.com/)
+
+
+## 8. Media
+The photos used in the review section were obtained from :
+
+- [Unsplash](https://unsplash.com/photos/-EvvsegVoUE)
+
+## 9. Acknowledgements
+
+- I received inspiration for this project from the previous exercises made during the course. But also famous renting sites were used as a reference :
+- [Airb&b](https://www.airbnb.es/)
+- [Vrbo](https://vrbo.com/)
+
+The landing page was inspired by the images from :
+- [Tom Parkes](https://dribbble.com/shots/4108711-Dot-Landing-Page-Transitions)
+
+The gallery section was inspired by the image of :
+- [Tom Parkes](https://dribbble.com/shots/4847700-Habitat-67-Layout-Explorations)
+- Thanks to [Precious Ijege](@Precious_Mentor) for his mentoring while developing this project. His advices, patience and support were of high relevance to carry out this project. 
+
+
+- ## Github
+You can find this project on 
+[My Github](https://github.com/juliandavid-garcia)
 
 #credits
 https://www.behance.net/gallery/101506863/Palma-de-cera
