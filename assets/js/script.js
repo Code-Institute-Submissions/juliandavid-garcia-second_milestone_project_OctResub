@@ -8,20 +8,7 @@ function initMap(){
     var map = new 
     google.maps.Map(document.getElementById("map"), options);
 
-    //add markers
-    var marker = new google.maps.Marker({
-      position:{lat:4.5744500,lng:-75.645177},
-      map:map,
-      icon:"https://img.icons8.com/color/48/000000/order-delivered.png"
-    });
-
-    var infoWindow = new google.maps.InfoWindow({
-      content:'<h1>Flats Armenia</h1>'
-    });
     
-    marker.addListener('click', function(){
-      infoWindow.open(map, marker);
-    });
    
    addMarker({coords:{lat:4.574413,lng:-75.64477},
   iconImage:"https://img.icons8.com/color/48/000000/order-delivered.png",
