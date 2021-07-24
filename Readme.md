@@ -1,3 +1,4 @@
+![Responsiveness](Readme_images/responsiveness.png)
 # Flats Armenia 
 This site has relevant iformation about the apartments rented by Flats Armenia. Here visitors can find a description of the facilities as well as inventory of some to the amenities they can find in the apartment. Guests can also find in this website a personlized map which can help them find the closest supermarkets, parkings, ATMs, etc. Through this page potencial visitors can preview and reserve via Airb&b, if they have an account on this plataform. 
 
@@ -40,12 +41,11 @@ which is a very instuitive prototyping tool that focuses in the user interface a
 This website was designed thinking on a minimalist concept which transmits serenity and tranquillity and which reflects what is like to be on the apartment. Therefore, all pages are diaphanous but functional, avoiding the overuse of colors which could be stressful  and overwhelming for the users.
 Hence, black, white and gray are the predominant colors.
 - The font: 
-Regarding the font "Oswald" and "Roboto" were used due to the perfect contrast, they offer making the site look clean and ordered. 
+Regarding the font "poppis" and "Heebo" were used due to the perfect contrast, they offer making the site look clean and ordered. 
 - Colors:
    - Rgba (7, 7, 7, 0.1) 
-    - #fafafa (Font color)
-    - #1e1e1e (Drop menu)
-    - #5c5a5a (Navigation bar hover)
+    - #ffffff (Font color)
+    - #black (slide right menu)
     
        Note: 
     - Even though, there seem to be a wider range of color on the website it is due to the different opacity scales of some of these colors. 
@@ -159,7 +159,8 @@ The Carousel effect used in the portfolio images was taken from :
 The calendar was taken from :
 - [Calendar](https://elfsight.com/)
 
-
+The position of icons in the googlemaps is carried out to the instructions given by :
+- [Google maps](https://m.youtube.com/watch?v=Zxf1mnP5zcw&t=1264s)
 ## 8. Media
 The photos used in the review section were obtained from :
 
@@ -183,9 +184,7 @@ The gallery section was inspired by the image of :
 You can find this project on 
 [My Github](https://github.com/juliandavid-garcia)
 
-#credits
-https://www.behance.net/gallery/101506863/Palma-de-cera
-palm tree
+
 
 
 

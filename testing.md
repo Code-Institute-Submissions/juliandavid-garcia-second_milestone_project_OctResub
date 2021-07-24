@@ -54,9 +54,8 @@ On devices up to 576 PX  there is not Carousel display in the landing page.
 As illustrated in the image below, this website has been tested in all devices  available in the Google chrome Developer tool. The results are the followings:
 
 
-![responsiveness](Readme-images/table-0.png)
+![responsiveness](Readme_images/table-0.png)
 
-![responsiveness](Readme-images/table-1.png)
 
 As we can see the website responds effectively in all devices. However, in the desktop version theres is an undesired right-margin in the landing page which still need to be investigated in order to be removed
 ## Bugs ##
