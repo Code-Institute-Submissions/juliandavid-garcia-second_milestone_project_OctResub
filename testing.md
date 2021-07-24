@@ -9,7 +9,7 @@ When filling the form if the information required in the contact form is not cor
 As part of the testing process this website was tested using:
  - [W3C Markup Validator](https://validator.w3.org/) 
  - [Jigsaw W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
-
+- [Jshint](https://jshint.com/)
 ## W3C Markup Validator
 
 
@@ -19,7 +19,7 @@ As part of the testing process this website was tested using:
 
 - ## Contact page ##
 
-![contact](Readme_images/form_validator.png)
+![contact](Readme_images/form-validator.png)
 
 
 
@@ -27,8 +27,11 @@ As part of the testing process this website was tested using:
 
 ![CSS](Readme_images/w3c-css.png)
 
-
-
+## Js hint Validator
+- ## Map ##
+![JavaScript](Readme_images/jshint.png)
+- ## Email ##
+![sendEmail](Readme_images/send-email.png)
 
  This web has been tested in desktop devices using the following browser:
 
@@ -73,22 +76,22 @@ As we can see the website responds effectively in all devices. However, in the d
 ## Testing users' stories ##
 ### As a guest I want to:
 - **Find the address of the apartment**
-If you check the map you can find the location of the flat. However, the exact address is given to the guest when the reservation is confirmed 
+  - If you check the map you can find the location of the flat. However, the exact address is given to the guest when the reservation is confirmed 
 
 - **See images of the apartment**
-In the Gallery section people can have access to all the images of the apartment 
+  - In the Gallery section people can have access to all the images of the apartment 
 - **Find the instruction on how to arrive to the flat**
-Following the google maps direction people can arrive to the flat easily.
+  - Following the google maps direction people can arrive to the flat easily.
 - **See the amenities provided** 
-In the section Amenities people can find a list of the most outstanding services found in the flat
+  - In the section Amenities people can find a list of the most outstanding services found in the flat
 - **Make a reservation** 
-People can contact the flat manager in order to set a reservation or can also make direct reservation through the airb&b wesite which is linked to the site. 
+  -  People can contact the flat manager in order to set a reservation or can also make direct reservation through the airb&b wesite which is linked to the site. 
 - **Have direct contact with the owner of the flat.** 
-There is a contact form for people to reach the flats owner in order to ask questions or make direct reservations
+  - There is a contact form for people to reach the flats owner in order to ask questions or make direct reservations
 - **Spot on a map the location of the flat and places of intrest ATMs, Supermarkets, etc..**
-In the map provided in the site people can find relevant information for the visitors such as the supermakets, banks and even the location of the flat
+  - In the map provided in the site people can find relevant information for the visitors such as the supermakets, banks and even the location of the flat
 - **Check the public transportation availability.** 
-User can find in the map where are the bustops closes to the flat and which are the routes that take you there. 
+  - User can find in the map where are the bustops closes to the flat and which are the routes that take you there. 
 - **have access to its social media**
   
   - In the footer the user can find all the links to the social media of the apartment.

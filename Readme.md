@@ -50,7 +50,7 @@ Regarding the font "poppis" and "Heebo" were used due to the perfect contrast, t
        Note: 
     - Even though, there seem to be a wider range of color on the website it is due to the different opacity scales of some of these colors. 
 
-    ## 2. Features
+## 2. Features
 
 ### 2.1. Existing features
 
@@ -80,9 +80,11 @@ This section has small icons that show what kind of services offered in the apar
 
 ### 2.1.6 Gallery:
  This section displays all the images regarding the different parts of the apartment. kitchen, bathroom, livingroom. etc
-
-### 2.2 Map
+### 2.1.7 map:
 In the Map section People can find where exactly the apartment is located as well as some other places of interest as supermarkets or bus stations.
+### 2.2 Future features:
+When i aquired the knowledge required i qould like to add a direct reservation calendar so as those used by Booking or airb&b.
+
 
 ## 3. Technologies Used
 This website was built using:

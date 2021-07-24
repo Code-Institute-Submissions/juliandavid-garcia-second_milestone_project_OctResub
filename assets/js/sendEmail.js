@@ -14,4 +14,10 @@ function sendMail(contactForm) {
     );
     return false;  // To block from loading a new page
 }
-
+//Jquery
+$(document).ready(function() {
+    $("button").on("click", function() {
+        $("button").html('Sent!');
+        $("h2").html("Your Message has been successfully sent! Congratulations!");
+   });
+});
