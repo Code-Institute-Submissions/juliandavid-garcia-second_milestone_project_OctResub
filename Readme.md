@@ -1,4 +1,5 @@
 ![Responsiveness](Readme_images/responsiveness.png)
+- [Visit site](https://juliandavid-garcia.github.io/second_milestone_project/index.html)
 # Flats Armenia 
 This site has relevant iformation about the apartments rented by Flats Armenia. Here visitors can find a description of the facilities as well as inventory of some to the amenities they can find in the apartment. Guests can also find in this website a personlized map which can help them find the closest supermarkets, parkings, ATMs, etc. Through this page potencial visitors can preview and reserve via Airb&b, if they have an account on this plataform. 
 
@@ -127,7 +128,7 @@ This website was built using:
 - **The website is now deployed.**
 - [Deployed site address](https://juliandavid-garcia.github.io/second_milestone_project/index.html)
 
-## 6. To clon the repository using GitHub Desktop
+## 6. To clone the repository using GitHub Desktop
 - On GitHub, navigate to the main page of the repository.
 
 
