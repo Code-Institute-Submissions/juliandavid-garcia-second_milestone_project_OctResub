@@ -51,6 +51,9 @@ Regarding the font "poppis" and "Heebo" were used due to the perfect contrast, t
        Note: 
     - Even though, there seem to be a wider range of color on the website it is due to the different opacity scales of some of these colors. 
 
+-  that must be in the following order: characters@characters.domain (characters followed by an @ sign, followed by more characters, and then a "."After the "." sign, add at least 2 letters from a to z:pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+(Min-5 Max-50 characters)"
+
 ## 2. Features
 
 ### 2.1. Existing features

@@ -50,10 +50,13 @@
     <div class="alert alert-secondary" role="alert">
       <div class="center-form">
         <form onsubmit="return sendMail(this);">
-          <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required />
-          <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required />
-          <textarea rows="5" name="message" class="form-control" id="message" placeholder="Writer your message here"
+          <input type="text" name="name" class="form-control"  pattern="^[^\s][A-Za-z0-9\s]{5,50}$" id="fullname" placeholder="Name (Min-5 Max-50 characters)" required />
+          <br>
+          <input type="text" name="emailaddress" class="form-control" id="emailaddress" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Email" required />
+          <br>
+          <textarea rows="5" name="message" class="form-control" id="message" placeholder="Writer your message here (Min-20 Max-400 characters)" minlength="20" maxlength="400" pattern="^[^\s][A-Za-z0-9\s]{20,400}$"
             required></textarea>
+
           <button type="submit" id="button-1" class="btn btn-secondary btn-1 center-block">Send!</button>
           <h2 class="confirm"></h2>
         </form>
