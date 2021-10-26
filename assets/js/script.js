@@ -139,6 +139,30 @@ content:"<h6>Flats Armenia</h6>"
     return false;  // To block from loading a new page
 }
 
-//Jquery
+//Responsiveness 
+function myFunction(x) {
+  if (x.matches) { // If media query matches
+    document.body.style.backgroundColor = "yellow";
+  } else {
+   document.body.style.backgroundColor = "pink";
+  }
+}
 
- 
+var x = window.matchMedia("(max-width: 700px)")
+myFunction(x) // Call listener function at run time
+x.addListener(myFunction) // Attach listener function on state changes
+
+
+   //navigation 
+
+  
+   /* Open when someone clicks on the span element */
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+  }
+
+   /* Close when someone clicks on the "x" symbol inside the overlay */
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+  }
+
