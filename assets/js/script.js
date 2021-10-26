@@ -94,20 +94,17 @@ content:"<h6>Flats Armenia</h6>"});//Gas station});
     })
     .then(
         function(response) {
-            console.log("SUCCESS", response);
+            //console.log("SUCCESS", response);
+            alert("Email sent successfully!");
         },
         function(error) {
-            console.log("FAILED", error);
+            //console.log("FAILED", error);
+            alert("FAILED!"+error);
+
         }
     );
     return false;  // To block from loading a new page
 }
 //Jquery
-$(document).ready(function() {
-    $("button").on("click", function() {
-        $("button").html('Sent!');
-        $("h2").html("Your Message has been successfully sent! Congratulations!");
-   });
-});
 
-  
+ 
