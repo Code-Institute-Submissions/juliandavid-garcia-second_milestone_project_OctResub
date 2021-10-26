@@ -119,9 +119,6 @@ content:"<h6>Flats Armenia</h6>"
 
 
 // sendEmail.js
-(function () {
-  emailjs.init("user_EbLvG3iACRgi6RcDBExzK");
-})();
   function sendMail(contactForm) {
     emailjs.send("service_ymcl8ma","template_fdrf9de", { 
         "from_name": contactForm.name.value,
