@@ -2,6 +2,7 @@
 body{
   background-color: #ffffff;
 }
+
 nav{
   background-color: black;
 }
@@ -57,12 +58,12 @@ nav{
 #landing-page{
   background-color: #ffff;
   margin-top: 5px;
-  height: 800px;
+  height: 822px;
 }
 #logo{
-margin-top: 10px;
+margin-top: 40px;
 font-weight: bold;
-padding-top: 20px;
+padding-top: 25px;
 }
 #flats{
   font-weight: bold;
@@ -647,6 +648,7 @@ hr{
   left: 30%;
   
 }
+
 }
 /*ipad  responsiveness*/
 @media screen and (width: 768px){
@@ -782,6 +784,11 @@ hr{
     margin-top: 4%;
     margin-left: -100%;
     display: inline;
+}
+#review {
+  width: 100%;
+  height: 300px;
+  background-color: #111111;
 }
 
   
