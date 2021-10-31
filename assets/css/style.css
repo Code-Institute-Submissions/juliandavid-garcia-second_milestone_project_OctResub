@@ -2,7 +2,104 @@
 body{
   background-color: #ffffff;
 }
+.active {
+  background-color:rgba(7, 7, 7, 0.9);
+  color: white;
+}
 
+.activen{
+   border-bottom: 1px solid rgb(236, 235, 235);
+}
+
+.dropdown-toggle::after {
+   display: none;
+} 
+
+button .fas {
+   font-size: 22px;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+   color: #fff;
+   text-decoration: none;
+   background-color: #383838;
+}
+
+#menubar{
+  background-color:rgba(7, 7, 7, 1);
+  height:62px;
+  width: 100%;
+  position:fixed;
+  z-index: 4;
+  margin-top: -10px;
+}
+
+#menubar li{
+  float:right;
+   margin-right: 5%;
+   text-align: center;
+   padding-right: 9px;
+   padding-top: 2px;
+   padding-bottom: 40px;
+   list-style-type:none;
+}
+
+ul #hamburger{
+  margin-right: 5%;
+  margin-left: 55%;
+}
+
+#menubar li a{
+  text-decoration: none;
+}
+
+#name, #menubar{
+  line-height: 35px;
+}
+
+#name {
+  margin-left: 0px;
+  background-color:#fafafa;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: "Oswald", sans-serif;
+  overflow: hidden;
+}
+
+#name a{
+  text-decoration: none;
+  color:#1e1e1e;
+}
+nav a{
+  color:#fafafa; 
+  text-decoration: none;
+}
+
+nav a:hover{
+  color:#fafafa; 
+  text-decoration: none;
+  color:#5c5a5a
+}
+
+#name li{
+  text-align: center;
+}
+
+.dropdown-menu a {
+  color:black;
+  padding-right: 30px;
+  text-align:center;
+}
+#navbar{
+  background-color:rgba(7, 7, 7, 1);
+  height:62px;
+  width: 100%;
+  position:fixed;
+  z-index: 4;
+  margin-top: -10px;
+padding-top: 15px;
+}
 nav{
   background-color: black;
 }
@@ -447,6 +544,7 @@ display: inline;
     padding-bottom: 5%;
     border-left: rgba(0,0,0,0.6) solid 3px;
 }
+
 #amenities {
   background: #0a0a0a;
   color:#ffffff;
@@ -515,7 +613,9 @@ display: inline;
   height: 500px;
   background-color: #111111;
 }
-
+.col-7 {
+  display: none;
+  }
 
 }
 /*mobile  responsiveness*/
@@ -625,6 +725,11 @@ hr{
 }
 /*duo  responsiveness*/
 @media screen and (width: 540px){
+  #logo {
+    margin-top: 40px;
+    font-weight: bold;
+    padding-top: 35px;
+}
   .amen-icons {
     padding-top: 0px;
     margin-bottom: 0px;
@@ -646,14 +751,20 @@ hr{
   display: inline;
   position: absolute;
   left: 30%;
-  
 }
 
+#menubar{
+  background-color:rgba(7, 7, 7, 1);
+  height:70px;
+  width: 100%;
+  position:fixed;
+  z-index: 4;
+  margin-top: -10px;
 }
 /*ipad  responsiveness*/
 @media screen and (width: 768px){
   #photo-1 {
-    width: 98%;
+    width: 97%;
     height: 500px;
     position:absolute
 }
@@ -894,11 +1005,10 @@ hr{
 }
   
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
 .col-7 {
   display: none;
-}
-
+  }
 }
 
 @media screen and (width: 280px) {
@@ -921,6 +1031,9 @@ hr{
   font-size: 20px;
   margin-top: 10%;
 }
+.col-7 {
+  display: none;
+  }
 }
 
 
