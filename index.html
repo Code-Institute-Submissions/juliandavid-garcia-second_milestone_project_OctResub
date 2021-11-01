@@ -236,20 +236,33 @@
     <!--Reserve-->
     <div id="calendar">
      <div class="container-fluid no-gutters">
-       <div class="row">
-         <div class="col-7">
-           <div class="elfsight-app-0c8169be-a261-493d-876f-62c4e778d07e"></div>
-         </div>
-         <div class="col-5">
-           <p class="text-center">Check our avaliability and message us to book your reservation.</p>
-           <a href="form.html" class="btn btn-dark">Reserve</a>
-           <hr class="hr">
-           <p class="badge-title">Rent a week and get <span class="badge bg-secondary">20%</span> discount</p>
+      
+          <h3 class="text-center">Message us to book your reservation.</h3>
+          <hr class="hr">
+          <p class="badge-title">Rent a week and get <span class="badge bg-secondary">20%</span> discount</p>
+         <div class="">
+          <div class="alert alert-secondary" role="alert">
+            <div class="center-form">
+              <form id="form-1" onsubmit="return sendMail(this);">
+                <input type="text" name="name" class="form-control"  pattern="^[^\s][A-Za-z0-9\s]{5,50}$" id="fullname" placeholder="Name (Min-5 Max-50 characters)" required />
+                <br>
+                <input type="text" name="emailaddress" class="form-control" id="emailaddress" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Email" required />
+                <br>
+                <textarea rows="5" name="message" class="form-control" id="message" placeholder="Writer your message here (Min-5 Max-400 characters)" minlength="5" maxlength="400" pattern="^[^\s][A-Za-z0-9\s]{20,400}$"
+                  required></textarea>
+                  <button type="submit" id="button-1" class="btn btn-secondary btn-1 center-block">Send!</button>
+                  
+      
+               
+                <h2 class="confirm"></h2>
+              </form>
+            </div>
          </div>
        </div>
-     </div>
+
    </div>
- 
+  </div>
+
  <!--Review-->
  <div id="review" class="container-fluid no-gutters">
    <div class="row block">
