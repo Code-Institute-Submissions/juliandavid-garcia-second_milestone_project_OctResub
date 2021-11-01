@@ -139,6 +139,15 @@ content:"<h6>Flats Armenia</h6>"
     return false;  // To block from loading a new page
 }
 
+
+$(document).ready(function() {
+  $(".dropdown-item").on('click',function(){
+    // remove classname 'active' from all li who already has classname 'active'
+    $(".dropdown-item .active").removeClass("active"); 
+    // adding classname 'active' to current click li 
+    $(this).addClass("active"); 
+});
+  });
 //Responsiveness 
 function myFunction(x) {
   if (x.matches) { // If media query matches
