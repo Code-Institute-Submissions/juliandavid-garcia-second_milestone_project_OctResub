@@ -442,15 +442,14 @@ display: inline;
   }
   #calendar .badge-title{
     font-size:18px;
-    margin-right: 15%;
-  margin-left: 35%;
+    text-align: center;
   margin-top:2%;
   font-weight:lighter;
   }
   
   #calendar .btn {
-    margin-left: 43%;
-    font-size: 20px;
+    margin-left: 45%;
+    font-size: 30px;
     margin-top: 10%;
     background-color: 
     #ffc107;
@@ -595,11 +594,9 @@ display: inline;
 
 #calendar .badge-title {
   font-size: 20px;
-  margin-right: 15%;
-  margin-left: 20%;
   margin-top: 2%;
   font-weight: lighter;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
   text-align: center;
 }
 
@@ -798,6 +795,14 @@ hr{
   position:fixed;
   z-index: 4;
   margin-top: -10px;
+}
+#calendar .btn {
+  margin-left: 40%;
+  font-size: 30px;
+  margin-top: 10%;
+  background-color: 
+  #ffc107;
+  color: #000000;
 }
 }
 /*ipad  responsiveness*/
@@ -1049,6 +1054,14 @@ hr{
     padding-bottom: 5%;
     border-left: rgba(0,0,0,0.6) solid 3px;
     margin-left: 60px;
+}
+#calendar .btn {
+  margin-left: 40%;
+  font-size: 30px;
+  margin-top: 10%;
+  background-color: 
+  #ffc107;
+  color: #000000;
 }
   
 }
