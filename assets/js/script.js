@@ -1,3 +1,12 @@
+$(document).ready(function(){
+  $(".dropdown-item").on({
+      click: function(){
+        $(".dropdown-item").removeClass("active");
+          $(this).addClass("active");
+      }
+  });    
+});
+
 function initMap(){
   //map options
   var options ={
@@ -140,38 +149,5 @@ content:"<h6>Flats Armenia</h6>"
 }
 
 
-$(document).ready(function() {
-  $(".dropdown-item").on('click',function(){
-    // remove classname 'active' from all li who already has classname 'active'
-    $(".dropdown-item .active").removeClass("active"); 
-    // adding classname 'active' to current click li 
-    $(this).addClass("active"); 
-});
-  });
-//Responsiveness 
-function myFunction(x) {
-  if (x.matches) { // If media query matches
-    document.body.style.backgroundColor = "yellow";
-  } else {
-   document.body.style.backgroundColor = "pink";
-  }
-}
 
-var x = window.matchMedia("(max-width: 700px)")
-myFunction(x) // Call listener function at run time
-x.addListener(myFunction) // Attach listener function on state changes
-
-
-   //navigation 
-
-  
-   /* Open when someone clicks on the span element */
-function openNav() {
-  document.getElementById("myNav").style.width = "100%";
-  }
-
-   /* Close when someone clicks on the "x" symbol inside the overlay */
-function closeNav() {
-  document.getElementById("myNav").style.width = "0%";
-  }
 
