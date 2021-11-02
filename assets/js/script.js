@@ -4,7 +4,12 @@ $(document).ready(function(){
         $(".dropdown-item").removeClass("active");
           $(this).addClass("active");
       }
-  });    
+  });  
+  $("alert").on({
+    click: function(){
+      $("form").reload();
+    }
+});  
 });
 
 function initMap(){
@@ -138,15 +143,19 @@ content:"<h6>Flats Armenia</h6>"
         function(response) {
             //console.log("SUCCESS", response);
             alert("Email sent successfully!");
+            location.reload();
         },
         function(error) {
             //console.log("FAILED", error);
             alert("FAILED!"+error);
         },
     );
-    
     return false;  // To block from loading a new page
 }
+
+ 
+
+
 
 
 
