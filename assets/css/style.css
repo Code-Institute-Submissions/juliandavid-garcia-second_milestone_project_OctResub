@@ -887,6 +887,14 @@ hr{
   #ffc107;
   color: #000000;
 }
+#personal{
+margin-top: 0;
+margin-bottom: 1 rem;
+margin-left: 23%;
+margin-right: 23%;
+color: #ffffff;
+font-size: 15px
+}
 }
 /*ipad  responsiveness*/
 @media screen and (width: 768px){
@@ -1160,7 +1168,63 @@ hr{
   display:block;
   }
 }
+/* iphone x */
+@media screen and (width: 375px){
+  #personal {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-left: 2%;
+    margin-right: 8%;
+    color: #ffffff;
+    font-size: 17px;
+}
+}
 
+/* iphone 8plus */
+@media screen and (max-width: 414px){
+  #personal {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-left: 2%;
+    margin-right: 8%;
+    color: #ffffff;
+    font-size: 19px;
+}
+}
+/* iphone x */
+@media screen and (width: 375px){
+  #personal {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-left: 2%;
+    margin-right: 8%;
+    color: #ffffff;
+    font-size: 17px;
+}
+}
+/* G4 width 360px */
+@media screen and (width: 360px){
+  #personal {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-left: 2%;
+    margin-right: 8%;
+    color: #ffffff;
+    font-size: 16px;
+}
+}
+/* iphone 5 width 320px */
+@media screen and (width: 320px){
+  #personal {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-left: 2%;
+    margin-right: 8%;
+    color: #ffffff;
+    font-size: 14px;
+}
+}
+/* fold */
 @media screen and (width: 280px) {
   .round-image-1 {
     height: 70px;
@@ -1190,6 +1254,7 @@ hr{
     margin-left: -9%;
     margin-right: 8%;
     color: #ffffff;
+    font-size: 13px;
 }
 }
 
