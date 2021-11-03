@@ -16,46 +16,56 @@ if($(window).width() <= 768){
 $("#wifi").click(function(){
   alert("Wifi 70MB");
 }
-);
+)};
 $("#tv").click(function(){
+  if($(window).width() <= 768){
   alert("SmartTV connected to internet");
 }
-);
+});
 $("#blender").click(function(){
+  if($(window).width() <= 768){
   alert("Blender for juices or smoothies");
 }
-);
+});
 $("#microwave").click(function(){
+  if($(window).width() <= 768){
   alert("Microwave to warm up your food");
 }
-);
+});
 $("#local_laundry_service").click(function(){
+  if($(window).width() <= 768){
   alert("Washing Machine 18kg capacity");
 }
-);
+});
 $("#flatware").click(function(){
+  if($(window).width() <= 768){
   alert("The apartment is equipped with cutlery for cooking");
 }
-);
+});
 $("#iron").click(function(){
+  if($(window).width() <= 768){
   alert("There is an iron just in case you might need it");
 }
-);
+});
 $("#shower").click(function(){
-  alert("The shower has cold and warm water");
+  if($(window).width() <= 768){
+  alert("Shower with warm and cold water");
 }
-);
+});
 $("#elevator").click(function(){
-  alert("Panoramic lift to enjoy the view");
+  if($(window).width() <= 768){
+  alert("Panoramic lift to enjoy the views");
 }
-);
+});
 $("#not_interested").click(function(){
-  alert("There is no parking spot fot cars, only for motorcycles");
+  if($(window).width() <= 768){
+  alert("NO parking for cars, only for motorcycles");
 }
-)};
+});
 });
 
 var APIkey = "AIzaSyD6F2UYda2LUohDHbhWN4rVdmyiPNs7oMw";
+
 
 function initMap(){
   //map options
