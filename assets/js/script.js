@@ -12,12 +12,47 @@ $(document).ready(function(){
         $(this).addClass("activee");
     }
 });
+if($(window).width() <= 768){
 $("#wifi").click(function(){
-  if($(window).width() <= 976){
-  alert("Hello World! Welcome to Tutorialdeep.");
+  alert("Wifi 70MB");
 }
-});
-
+);
+$("#tv").click(function(){
+  alert("SmartTV connected to internet");
+}
+);
+$("#blender").click(function(){
+  alert("Blender for juices or smoothies");
+}
+);
+$("#microwave").click(function(){
+  alert("Microwave to warm up your food");
+}
+);
+$("#local_laundry_service").click(function(){
+  alert("Washing Machine 18kg capacity");
+}
+);
+$("#flatware").click(function(){
+  alert("The apartment is equipped with cutlery for cooking");
+}
+);
+$("#iron").click(function(){
+  alert("There is an iron just in case you might need it");
+}
+);
+$("#shower").click(function(){
+  alert("The shower has cold and warm water");
+}
+);
+$("#elevator").click(function(){
+  alert("Panoramic lift to enjoy the view");
+}
+);
+$("#not_interested").click(function(){
+  alert("There is no parking spot fot cars, only for motorcycles");
+}
+)};
 });
 
 var APIkey = "AIzaSyD6F2UYda2LUohDHbhWN4rVdmyiPNs7oMw";
