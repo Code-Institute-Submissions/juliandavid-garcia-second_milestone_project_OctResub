@@ -5,68 +5,69 @@ $(document).ready(function(){
         $(".dropdown-item").removeClass("active");
           $(this).addClass("active");
       }
-  });
+  });//active class hamburguer menu
   $(".nav-link").on({
     click: function(){
       $(".nav-link").removeClass("activee");
         $(this).addClass("activee");
     }
-});
-if($(window).width() <= 768){
-$("#wifi").click(function(){
-  alert("Wifi 70MB");
-}
-)};
-$("#tv").click(function(){
-  if($(window).width() <= 768){
-  alert("SmartTV connected to internet");
-}
-});
-$("#blender").click(function(){
-  if($(window).width() <= 768){
-  alert("Blender for juices or smoothies");
-}
-});
-$("#microwave").click(function(){
-  if($(window).width() <= 768){
-  alert("Microwave to warm up your food");
-}
-});
-$("#local_laundry_service").click(function(){
-  if($(window).width() <= 768){
-  alert("Washing Machine 18kg capacity");
-}
-});
-$("#flatware").click(function(){
-  if($(window).width() <= 768){
-  alert("The apartment is equipped with cutlery for cooking");
-}
-});
-$("#iron").click(function(){
-  if($(window).width() <= 768){
-  alert("There is an iron just in case you might need it");
-}
-});
-$("#shower").click(function(){
-  if($(window).width() <= 768){
-  alert("Shower with warm and cold water");
-}
-});
-$("#elevator").click(function(){
-  if($(window).width() <= 768){
-  alert("Panoramic lift to enjoy the views");
-}
-});
-$("#not_interested").click(function(){
-  if($(window).width() <= 768){
-  alert("NO parking for cars, only for motorcycles");
-}
-});
+  });//activee class extended menu
+  //amenities alert description
+  
+  $("#wifi").click(function(){
+    if($(window).width() <= 768){
+    alert("Wifi 70MB");
+  }
+  });
+  $("#tv").click(function(){
+    if($(window).width() <= 768){
+    alert("SmartTV connected to internet");
+  }
+  });
+  $("#blender").click(function(){
+    if($(window).width() <= 768){
+    alert("Blender for juices or smoothies");
+  }
+  });
+  $("#microwave").click(function(){
+    if($(window).width() <= 768){
+    alert("Microwave to warm up your food");
+  }
+  });
+  $("#local_laundry_service").click(function(){
+    if($(window).width() <= 768){
+    alert("Washing Machine 18kg capacity");
+  }
+  });
+  $("#flatware").click(function(){
+    if($(window).width() <= 768){
+    alert("The apartment is equipped with cutlery for cooking");
+  }
+  });
+  $("#iron").click(function(){
+    if($(window).width() <= 768){
+    alert("There is an iron just in case you might need it");
+  }
+  });
+  $("#shower").click(function(){
+    if($(window).width() <= 768){
+    alert("Shower with warm and cold water");
+  }
+  });
+  $("#elevator").click(function(){
+    if($(window).width() <= 768){
+    alert("Panoramic lift to enjoy the views");
+  }
+  });
+  $("#not_interested").click(function(){
+    if($(window).width() <= 768){
+    alert("NO parking for cars, only for motorcycles");
+  }
+  });
 });
 
-var APIkey = "AIzaSyD6F2UYda2LUohDHbhWN4rVdmyiPNs7oMw";
 
-
+//Google maps section
 function initMap(){
   //map options
   var options ={
@@ -161,10 +162,10 @@ content:"<h6>Flats Armenia</h6>"
 }//Gas station})
   ];
 
-  //Loop through Markers
-  for(var i = 0;i < markers.length;i++){
-    addMarker(markers[i])
-  }
+//Loop through Markers
+for(var i = 0;i < markers.length;i++){
+  addMarker(markers[i])
+}
  
  //Add Marker function
  function addMarker(props){
@@ -188,21 +189,21 @@ content:"<h6>Flats Armenia</h6>"
 
 
 // sendEmail.js
-  function sendMail(contactForm) {
-    emailjs.send("service_ymcl8ma","template_fdrf9de", { 
+function sendMail(contactForm) {
+  emailjs.send("service_ymcl8ma","template_fdrf9de", { 
         "from_name": contactForm.name.value,
         "from_email": contactForm.emailaddress.value,
         "message": contactForm.message.value
     })
-    .then(
-        function(response) {
+  .then(
+      function(response) {
             //console.log("SUCCESS", response);
-            alert("Email sent successfully!");
-            location.reload();
+          alert("Email sent successfully!");
+          location.reload();
         },
-        function(error) {
-            //console.log("FAILED", error);
-            alert("FAILED!"+error);
+      function(error) {
+           //console.log("FAILED", error);
+          alert("FAILED!"+error);
         },
     );
     return false;  // To block from loading a new page
