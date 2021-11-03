@@ -146,19 +146,19 @@ nav{
 #gif {
   height: 70px;
   width: 70px;
-  margin-left: 40%;
+  margin-left: 45%;
   opacity: 1;
   margin-top: 9%;
 }
 #photo-1{
   width: 98%;
-  height: 800px;
+  height: 950px;
   position: absolute;
 }
 #landing-page{
   background-color: #ffff;
   margin-top: 5px;
-  height: 822px;
+  height: 950px;
 }
 #logo{
 margin-top: 40px;
@@ -211,7 +211,7 @@ padding-top: 25px;
 hr{
   margin-left: 10%;
   margin-top: 15%;
-  margin-right: 0%;
+  margin-right: 10%;
 }
 /*Icons--google*/
 .material-icons {
@@ -565,6 +565,12 @@ color:#ffffff;
     height: 800px;
     position: absolute;
   }
+  #landing-page {
+    background-color: #ffff;
+    margin-top: 5px;
+    height: 800px
+;
+}
   .text-icon-1{
     padding-left: 2.5%;
     }
@@ -594,6 +600,13 @@ color:#ffffff;
                     }
     .text-icon-10{
     padding-left: 1.3%;
+    }
+    #amenities {
+      background: #0a0a0a;
+      color:#ffffff;
+      font-family: "heebo";
+      height:800px;
+     width: 100%;
     }
 
     #month{
@@ -662,7 +675,13 @@ color:#ffffff;
   flex: 0 0 auto;
   width: 100%;
 }
-
+#gif {
+  height: 70px;
+  width: 70px;
+  margin-left: 40%;
+  opacity: 1;
+  margin-top: 9%;
+}
 .hr{
   display: none;
 }
@@ -791,7 +810,7 @@ color:#b1abab;
 hr{
   margin-left: 10%;
   margin-top: 10%;
-  margin-right: 0%;
+  margin-right: 10%;
 }
 /*Icons--google*/
 .material-icons {
@@ -892,6 +911,13 @@ hr{
   z-index: 4;
   margin-top: -10px;
 }
+#gif {
+  height: 70px;
+  width: 70px;
+  margin-left: 43%;
+  opacity: 1;
+  margin-top: 9%;
+}
 #calendar .btn {
   margin-left: 40%;
   font-size: 30px;
@@ -969,7 +995,7 @@ font-size: 15px
 hr{
   margin-left: 10%;
   margin-top: 10%;
-  margin-right: 0%;
+  margin-right: 10%;
 }
 .text-position{
   padding-left: 2%;
@@ -1114,7 +1140,7 @@ hr{
 hr{
   margin-left: 10%;
   margin-top: 10%;
-  margin-right: 0%;
+  margin-right: 10%;
 }
 #amenities {
   background: #0a0a0a;
