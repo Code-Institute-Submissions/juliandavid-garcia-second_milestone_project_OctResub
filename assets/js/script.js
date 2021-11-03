@@ -1,16 +1,26 @@
+
 $(document).ready(function(){
   $(".dropdown-item").on({
       click: function(){
         $(".dropdown-item").removeClass("active");
           $(this).addClass("active");
       }
-  });  
-  $("alert").on({
+  });
+  $(".nav-link").on({
     click: function(){
-      $("form").reload();
+      $(".nav-link").removeClass("activee");
+        $(this).addClass("activee");
     }
-});  
 });
+$("#wifi").click(function(){
+  if($(window).width() <= 976){
+  alert("Hello World! Welcome to Tutorialdeep.");
+}
+});
+
+});
+
+var APIkey = "AIzaSyD6F2UYda2LUohDHbhWN4rVdmyiPNs7oMw";
 
 function initMap(){
   //map options

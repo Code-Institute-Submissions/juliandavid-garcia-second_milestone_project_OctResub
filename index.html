@@ -56,6 +56,7 @@
                <a id="item2"class="dropdown-item" href="#map">Map</a>
                <a id="item3"class="dropdown-item" href="#carousel">Gallery</a>
                <a id="item4"class="dropdown-item" href="#calendar">Reserve</a>
+               <a id="item4"class="dropdown-item" href="#review">Review</a>
            </div>
        </div>
    </div>
@@ -64,7 +65,7 @@
  <nav id="navbar" class="d-none d-sm-block">
    <ul class="nav justify-content-end">
      <li class="nav-item">
-       <a class="nav-link active" href="#amenities">Amenities</a>
+       <a class="nav-link " href="#amenities">Amenities</a>
      </li>
      <li class="nav-item">
        <a class="nav-link" href="#map">Map</a>
@@ -73,8 +74,11 @@
        <a class="nav-link" href="#carousel">Gallery</a>
      </li>
      <li class="nav-item">
-       <a class="nav-link" href="#calendar">Reserve</a>
+       <a class="nav-link" href="#calendar">Contact</a>
      </li>
+     <li class="nav-item">
+      <a class="nav-link" href="#review">Review</a>
+    </li>
    </ul>
  </nav>
 
@@ -104,11 +108,11 @@
    <h1 class="amenities-title">Amenities</h1>
    <div class="col-6 col-md-12">
      <ul class=amen-icons>
-       <li><i class="material-icons">wifi</i><span id="sub=1" class="d-md-none text-position"></span></li>
-       <li><i class="material-icons">tv</i><span class="d-md-none text-position"></span></li>
-       <li><i class="material-icons">blender</i><span class="d-md-none text-position"></span></li>
-       <li><i class="material-icons">microwave</i><span class="d-md-none text-position"></span></li>
-       <li><i class="material-icons">local_laundry_service</i><span class="d-md-none text-position"></span>
+       <li id="wifi"><i class="material-icons">wifi</i><span id="sub=1" class="d-md-none text-position"></span></li>
+       <li id="tv"><i class="material-icons">tv</i><span class="d-md-none text-position"></span></li>
+       <li id="blender"><i class="material-icons">blender</i><span class="d-md-none text-position"></span></li>
+       <li id="microwave"><i class="material-icons">microwave</i><span class="d-md-none text-position"></span></li>
+       <li id="local_laundry_service"><i class="material-icons">local_laundry_service</i><span class="d-md-none text-position"></span>
        </li>
      </ul>
      <ul class="amen-text d-none d-sm-block">
@@ -121,11 +125,11 @@
    </div>
    <div class="col-sm-12 col-6">
      <ul class=amen-icons>
-       <li><i class="material-icons">flatware</i><span class="d-md-none text-position"></span></li>
-       <li><i class="material-icons">iron</i><span class="d-md-none text-position"></span></li>
-       <li><i class="material-icons">shower</i><span class="d-md-none text-position"></span></li>
-       <li><i class="material-icons">elevator</i><span class="d-md-none text-position"></span></li>
-       <li><i class="material-icons">not_interested</i><span class="d-md-none text-position"></span></li>
+       <li id="flatware"><i class="material-icons">flatware</i><span class="d-md-none text-position"></span></li>
+       <li id="iron"><i class="material-icons">iron</i><span class="d-md-none text-position"></span></li>
+       <li id="shower"><i class="material-icons">shower</i><span class="d-md-none text-position"></span></li>
+       <li id="elevator"><i class="material-icons">elevator</i><span class="d-md-none text-position"></span></li>
+       <li id="not_interested"><i class="material-icons">not_interested</i><span class="d-md-none text-position"></span></li>
      </ul>
      <ul class="amen-text d-none d-sm-block">
        <li><span class="text-icon-6">Silverware</span></li>
@@ -325,9 +329,7 @@
 </div>
 
 </footer>
- <script>
-   var APIkey = "AIzaSyD6F2UYda2LUohDHbhWN4rVdmyiPNs7oMw";
- </script>
+
  <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
  <script
    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD6F2UYda2LUohDHbhWN4rVdmyiPNs7oMw&callback=initMap&libraries=&v=weekly"
