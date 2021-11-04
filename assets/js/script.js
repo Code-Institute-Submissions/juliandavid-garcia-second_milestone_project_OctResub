@@ -164,7 +164,7 @@ content:"<h6>Flats Armenia</h6>"
 
 //Loop through Markers
 for(var i = 0;i < markers.length;i++){
-  addMarker(markers[i])
+  addMarker(markers[i]);
 }
  
  //Add Marker function
@@ -204,7 +204,7 @@ function sendMail(contactForm) {
       function(error) {
            //console.log("FAILED", error);
           alert("FAILED!"+error);
-        },
+        }
     );
     return false;  // To block from loading a new page
 }
