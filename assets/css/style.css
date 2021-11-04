@@ -1187,6 +1187,11 @@ padding-left: 6.5%;
   font-size: 20px;
   margin-top: 10%;
 }
+#carousel {
+  height: 684px;
+  width: 100%;
+  background-color: #ffffff;
+}
 .col-7 {
   display: block;
 }
@@ -1196,7 +1201,7 @@ padding-left: 6.5%;
   margin-left: -9%;
   margin-right: 8%;
   color: #ffffff;
-  font-size: 13px;
+  font-size: 15px;
 }
 }
 
