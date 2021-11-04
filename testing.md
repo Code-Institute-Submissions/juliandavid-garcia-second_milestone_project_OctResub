@@ -9,7 +9,7 @@ When filling the form if the information required in the contact form is not cor
 As part of the testing process this website was tested using:
  - [W3C Markup Validator](https://validator.w3.org/) 
  - [Jigsaw W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
-- [Jshint](https://jshint.com/)
+ - [Jshint](https://jshint.com/)
 ## W3C Markup Validator
 
 
@@ -30,8 +30,7 @@ As part of the testing process this website was tested using:
 ## Js hint Validator
 - ## Map ##
 ![JavaScript](Readme_images/jshint.png)
-- ## Email ##
-![sendEmail](Readme_images/send-email.png)
+
 
  This web has been tested in desktop devices using the following browser:
 
@@ -57,7 +56,13 @@ On devices up to 576 PX  there is not Carousel display in the landing page.
 As illustrated in the image below, this website has been tested in all devices  available in the Google chrome Developer tool. The results are the followings:
 
 
-![responsiveness](Readme_images/table-0.png)
+![responsiveness](Readme_images/Home.JPG)
+![responsiveness](Readme_images/Amenities.JPG)
+![responsiveness](Readme_images/Gallery.JPG)
+![responsiveness](Readme_images/Contact.JPG)
+![responsiveness](Readme_images/Map.JPG)
+![responsiveness](Readme_images/Review.JPG)
+![responsiveness](Readme_images/Footer.JPG)
 
 
 As we can see the website responds effectively in all devices. However, in the desktop version theres is an undesired right-margin in the landing page which still need to be investigated in order to be removed
