@@ -86,7 +86,7 @@ Hence, black, white and yellow are the predominant colors.
 
 - **Input format:**
     The form in the page count with some security features to guide the user to introduce the data in a secured and correct way: 
-    - **Email** box the users are required to enteran email in the  following order: characters@characters.domain (characters followed by an @ sign, followed by more characters, and then a "."After the "." sign, add at least 2 letters from a to z:pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">.
+    - **Email** box the users are required to enter an email in the  following order: characters@characters.domain (characters followed by an @ sign, followed by more characters, and then a "."After the "." sign, add at least 2 letters from a to z:pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">.
 
     - **Name** in this box users need to add a name 
     with a length of max-50 and min-5 characters. These characters have to be numbers and upper and lower case letters. Following the pattern="^[^\s][A-Za-z0-9\s]{5,50}$".
@@ -94,9 +94,9 @@ Hence, black, white and yellow are the predominant colors.
     - **Message** in this box users can add the message to the administrator 
     with a length of max-400 and min-5 characters. These characters can be numbers and upper and lower case letters.
 
-- **Alert:** when clicking on the icons located in the Amenities section the user will get an alert adding extra information related to each of the items selected. this is a feature that is only available for mobile devices since in the desktop version the icons alreay have an informative text below each icon. 
+- **Alert:** When clicking on the icons located in the Amenities section the user will get an alert adding extra information related to each of the items selected. this is a feature that is only available for mobile devices since in  desktops  the icons already have an informative text below each icon. 
      
-
+<span id="Features"></span>
 ## 2. Features
 
 ### 2.1. Existing features
@@ -116,21 +116,26 @@ Navigation Hamburguer menu:  This is the navigation option displayed on devices 
 
 ### 2.1.3 Contact:
  This feature can be reached through the menu or just scrolling to the section. Here the user  has a form  to  E-mail  the administrator of the flat.
+ this form has some security requirements as placeholders and patterns that garantee that all input boxes are filled properly. 
 
 ### 2.1.4 Social media: 
 Is located in the footer.
-Here all the icons are  linked  to its corresponding website and can be accessible from any of the different pages of the site.
+Here all the icons are  linked  to its corresponding website. 
+Target="_blank" was used to avoid being kicked out of the side when clicking on the icon-link.
 
 ### 2.1.5 Amenities: 
-This section has small icons that show what kind of services offered in the apartment. 
+This section has small icons that show what kind of services are offered in the apartment. When clicking on an icon user will get an alert with extra information regarding each item. This functionaliy is only available in devices  max-width 768px. In wider screens icons already have a description.
 
 ### 2.1.6 Gallery:
- This section displays all the images regarding the different parts of the apartment. kitchen, bathroom, livingroom. etc
-### 2.1.7 map:
-In the Map section People can find where exactly the apartment is located as well as some other places of interest as supermarkets or bus stations.
-### 2.2 Future features:
-When i aquired the knowledge required i qould like to add a direct reservation calendar so as those used by Booking or airb&b.
+ This section displays all the images regarding the different parts of the apartment. kitchen, bathroom, livingroom. etc. In order to display de images to the users a carousel from boostrap was used. This component slides the images from right to left and also gives the chance to go forward or backward with the lateral bottons.
 
+### 2.1.7 map:
+In the Map section People can find where exactly the apartment is located as well as some other places of interest as supermarkets or bus stations. Here users can click on the icons suggested and get a window with extra information related to that place.
+ 
+### 2.2 Future features:
+When i aquire the knowledge required i would like to add a direct reservation calendar so as those used by Booking or airb&b.
+
+<span id="Technologies"></span>
 
 ## 3. Technologies Used
 This website was built using:
@@ -148,14 +153,15 @@ This website was built using:
 - [Responsivedesign](http://ami.responsivedesign.is/) **Responsive Design** to show how it looks in defferent devices. 
 - [Google.API](https://developers.google.com/maps) **Google.API** Used to place the most important places as well as the location of the appartment in google maps.  
 - [EmailJs](https://www.emailjs.com/) **EmailJS** Used to link my personal email to the website.
-- [Elfsight](https://elfsight.com/) **Elfsight** Used to show the availability of the appartment in the calendar. 
-
-
+ 
+<span id="Testing"></span>
 ## 4. Testing
  
   - [Results Here](testing.md)
- 
+
+ <span id="Deployment"></span>
 ## 5. Deployment
+### **5.1 Deploy your repository**
 - **Open github**
 - **Open workspace/second_milestone_project and go to setting.**
 ![setting](/Readme_images/second-milestone-project.png)
@@ -173,22 +179,40 @@ This website was built using:
 - **The website is now deployed.**
 - [Deployed site address](https://juliandavid-garcia.github.io/second_milestone_project/index.html)
 
-## 6. To clone the repository using GitHub Desktop
-- On GitHub, navigate to the main page of the repository.
+## 5.2. To clon the repository using GitHub Desktop
+- **Download and install GitHub Desktop**
+
+ [Download GitHub Desktop](https://desktop.github.com/)
+
+- **Open github**
+![Github.com](/Readme_images/github.png)
+
+- **Open juliandavid-garcia/second-milestone-project**
+![Repository](/Readme_images/second-milestone-project.png)
+
+- **Click on the button "Code"**
+![code](/Readme_images/Code.JPG)
+
+- **Select "Open with GitHub Desktop" to clone
+ and open the respository with GitHub Desktop.**
+![Desktop](/Readme_images/select.png)
+
+- **Allow Github desktop to open the file you want to clone**
+![Allow](/Readme_images/allow.png)
+
+- **Choose where you want to save your cloned file**
+![path](/Readme_images/path.PNG)
 
 
-- Click on the button "Code"
+- **Choose where you want to see your cloned document**
+![Cloned](/Readme_images/choose.JPG)
 
-![code](/Readme_images/code.png)
-- Select "Open with GitHub Desktop" to clone and open the respository with GitHub Desktop.
-![Desktop](/Readme_images/open-with.png)
+- **If you chose "show in explorer" you will see something like this**
+![Cloned](/Readme_images/abrirexplorer.JPG)
 
-- Choose the destination folder for your cloned file
-![Desktop](/Readme_images/foder-clone.png)
 
-- You have the Repository cloned. 
-
-## 7. Credits:
+<span id="Credits"></span>
+## 6. Credits:
 The slide right menu used for the devices up to 576px was taken from [w3schools :](https://www.w3schools.com/howto/howto_js_curtain_menu.asp)
 
 - [Slide Right menu](https://getbootstrap.com/docs/4.1/components/dropdowns/)
@@ -204,17 +228,17 @@ The icons where taken from:
 The Carousel effect used in the portfolio images was taken from : 
  - [Carousel](https://getbootstrap.com/docs/5.0/components/carousel/#with-captions)
 
-The calendar was taken from :
-- [Calendar](https://elfsight.com/)
 
 The position of icons in the googlemaps is carried out to the instructions given by :
 - [Google maps](https://m.youtube.com/watch?v=Zxf1mnP5zcw&t=1264s)
-## 8. Media
+<span id="Media"></span>
+## 7. Media
 The photos used in the review section were obtained from :
 
-- [Unsplash](https://unsplash.com/photos/-EvvsegVoUE)
+- [Unsplash](https://unsplash.com/photos/3N26kH--Tuo)
 
-## 9. Acknowledgements
+<span id="Acknowledgements"></span>
+## 8. Acknowledgements
 
 - I received inspiration for this project from the previous exercises made during the course. But also famous renting sites were used as a reference :
 - [Airb&b](https://www.airbnb.es/)
@@ -227,7 +251,7 @@ The gallery section was inspired by the image of :
 - [Tom Parkes](https://dribbble.com/shots/4847700-Habitat-67-Layout-Explorations)
 - Thanks to [Precious Ijege](@Precious_Mentor) for his mentoring while developing this project. His advices, patience and support were of high relevance to carry out this project. 
 
-
+<span id="Github"></span>
 - ## Github
 You can find this project on 
 [My Github](https://github.com/juliandavid-garcia)
