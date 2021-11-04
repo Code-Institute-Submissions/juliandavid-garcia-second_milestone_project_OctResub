@@ -552,7 +552,7 @@ width: 100%;
   margin-top: -3.5%;
 }
 #amenities {
-  background: #0a0a0a;
+  background: #000000;
   color:#ffffff;
   font-family: "heebo";
   height:550px;
@@ -630,7 +630,7 @@ width: 100%;
 #review {
   width: 100%;
   height: 500px;
-  background-color: #111111;
+  background-color: #000000;
 }
 .col-7 {
   display:block;
@@ -667,7 +667,7 @@ width: 100%;
 footer{
   position: relative;
   bottom: 0; left: 0; right: 0;
-  background:rgba(7, 7, 7, 0.9);
+  background:#000000;
   height: 166px;
   width:100%;
   overflow: hidden;
@@ -693,7 +693,7 @@ color:#b1abab;
     line-height: 0.9;
 }
 #title{
-  color:#0a0a0a;
+  color:#000000;
   font-size: 40px;
   text-align:center;
   margin-top: 30%;
