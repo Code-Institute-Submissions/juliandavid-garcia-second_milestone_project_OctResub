@@ -184,8 +184,7 @@ This website was built using:
 
  [Download GitHub Desktop](https://desktop.github.com/)
 
-- **Open github**
-![Github.com](/Readme_images/github.png)
+
 
 - **Open juliandavid-garcia/second-milestone-project**
 ![Repository](/Readme_images/second-milestone-project.png)

@@ -1,10 +1,15 @@
  ## Testing ##
 
-- All the features of this project have been manually tested  in order to make sure they respond effectively. Moreover, users can move from page to page since all of them are interconnected. 
+- All the features of this project have been manually tested  in order to make sure they respond effectively:
+Through both menus(extended navigation bar and hamburguer navigation menu) users can reach every section of the website. 
+- the contact form has  been tested and it works perfectly. A confirmation message pops up to confirm that the message has been sent.
+ When filling the form if the information required in the contact form is not correct (wrong email format, or not filling the text boxes.) an error message about the required fields will appear. 
 
+- The map is working perfectly and the infowindows worked as expected in all devices. 
 
- - Contact form:
-When filling the form if the information required in the contact form is not correct (wrong email format, or not filling the text boxes.) an error message about the required fields will appear. 
+- In the Amenities section all the alerts show up when clicking on the icons.
+
+- The site had been developed to fit the sizes of the different devices provided by google developers tools. Therefore, this page is responsive in all those devices.   
 
 As part of the testing process this website was tested using:
  - [W3C Markup Validator](https://validator.w3.org/) 
@@ -13,22 +18,17 @@ As part of the testing process this website was tested using:
 ## W3C Markup Validator
 
 
-- ## Landing page ##
-
+- ## Html ##
+- There are some warnings regarding the Attribute type. I dont dare to remove those attribute since they correspond to links from the documentation in emailjs and google maps API. 
 ![Home page](Readme_images/htmlvalidator.png)
-
-- ## Contact page ##
-
-![contact](Readme_images/form-validator.png)
-
 
 
 ## W3C CSS Validator
 
-![CSS](Readme_images/w3c-css.png)
+- ![CSS](Readme_images/w3c-css.png)
 
 ## Js hint Validator
-- ## Map ##
+- ## script.js ##
 ![JavaScript](Readme_images/jshint.png)
 
 
@@ -49,7 +49,7 @@ As part of the testing process this website was tested using:
 
 This website is responsive. Consequently, it has been developed to  be displayed on any device. 
 The main changes users can evidence when accessing the site on a different device are:
-On devices up to 576 PX  there is not Carousel display in the landing page. 
+On devices up to 576 PX  there is not landing image displayed. 
 
 
 
@@ -65,18 +65,31 @@ As illustrated in the image below, this website has been tested in all devices  
 ![responsiveness](Readme_images/Footer.JPG)
 
 
-As we can see the website responds effectively in all devices. However, in the desktop version theres is an undesired right-margin in the landing page which still need to be investigated in order to be removed
+As we can see the website responds effectively in all devices.
 ## Bugs ##
 
 ### Bug 1. ###
-- There is a right margin that cant be removed in the sections that contains the carousel from boostrap.
+- There was a right margin that could not be removed in the sections that contains the carousel from boostrap. 
+  - I had to remove this carousel in order to get rid of the margin. 
+
 
 ### Bug 2. ###
-- When restricting the google API my map does not work
+- When restricting the google API my map does not work.
 
 ### Bug 3. ###
-- In devices  with a width smaller than 780px, the user need to zoon the screen out in order to fit the size of the image to the screen. 
+- In devices  with a width smaller than 780px, the user needed to zoon the screen out in order to fit the size of the image to the screen. 
+  - After having removed the carousel from the landing page the size of the whole site was adjusted. 
 
+### Bug 4. ###
+- When placing the emailjs function in the scripts.js file, the email shows an error. 
+  - Following the emailjs documentation the emailjs function "type="text/javascript">
+    (function () {
+      emailjs.init("user_EbLvG3iACRgi6RcDBExzK");
+    })();"  has to come in the html file in order to make it work.   
+
+### Bug 5. ###
+- When working with the emailjs i could not manage to get a confirmation alert.
+  - I replaced "console.log("SUCCESS", response);" for "alert("Email sent successfully!"  
 
 ## Testing users' stories ##
 ### As a guest I want to:
