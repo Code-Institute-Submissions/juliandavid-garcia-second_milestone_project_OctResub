@@ -42,7 +42,7 @@
   </script>
 </head>
 
-<body container no-gutters>
+<body>
   <!-- Top Navigation Hamburger Menu -->
   <nav id="menubar" class="col d-block d-sm-none">
     <div class="">
@@ -52,12 +52,12 @@
           <i class="fas fa-bars"></i>
         </button>
         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <a id="item1" class="dropdown-item" href="#landing-page">Home</a>
+          <a id="item0" class="dropdown-item" href="#landing-page">Home</a>
           <a id="item1" class="dropdown-item" href="#amenities">Amenities</a>
           <a id="item2" class="dropdown-item" href="#map">Map</a>
           <a id="item3" class="dropdown-item" href="#carousel">Gallery</a>
           <a id="item4" class="dropdown-item" href="#calendar">Reserve</a>
-          <a id="item4" class="dropdown-item" href="#review">Review</a>
+          <a id="item5" class="dropdown-item" href="#review">Review</a>
         </div>
       </div>
     </div>
@@ -258,114 +258,103 @@
         </div>
       </div>
     </div>
-    <!--Reserve-->
-    <div id="calendar">
-      <div class="container-fluid no-gutters">
-        <hr class="hr">
-        <h3 class="text-center">Message us to book your reservation.</h3>
-        <p class="badge-title">Rent a week and get <span class="badge bg-secondary">20%</span> discount</p>
-        <div class="">
-          <div class="alert alert-secondary" role="alert">
-            <div class="center-form">
-              <form id="form-1" onsubmit="return sendMail(this);">
-                <input type="text" name="name" class="form-control" pattern="^[^\s][A-Za-z0-9\s]{5,50}$" id="fullname"
-                  placeholder="Name (Min-5 Max-50 characters)" required />
-                <br>
-                <input type="text" name="emailaddress" class="form-control" id="emailaddress"
-                  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Email" required />
-                <br>
-                <textarea rows="5" name="message" class="form-control" id="message"
-                  placeholder="Writer your message here (Min-5 Max-400 characters)" minlength="5" maxlength="400"
-                  pattern="^[^\s][A-Za-z0-9\s]{20,400}$" required></textarea>
-                <button type="submit" id="button-1" class="btn btn-secondary btn-1 center-block">Send!</button>
-
-
-
-                <h2 class="confirm"></h2>
-              </form>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-    <!--Review-->
-    <div id="review" class="container-fluid no-gutters">
-      <div class="row block">
-        <div class="col-6">
-          <div class="row">
-            <div class="col-6 margin-image"><img class="round-image-1" src="assets/images/guy-image.png"
-                alt="guest-mam">
-            </div>
-            <div class="col-6 margin-paragraph">
-              <p>"Excellent communication, it helps a lot with what is needed. Recommended."</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-6 block">
-          <div class="row">
-            <div class="col-6 margin-image"><img class="round-image-1" src="assets/images/girl-image.png"
-                alt="guest-mam">
-            </div>
-            <div class="col-6 margin-paragraph">
-              <p>"Everything was fantastic, good location, very clean, 100% attention, in short I would return"</p>
-            </div>
+  </div>
+  <!--Reserve-->
+  <div id="calendar">
+    <div class="container-fluid no-gutters">
+      <hr class="hr">
+      <h3 class="text-center">Message us to book your reservation.</h3>
+      <p class="badge-title">Rent a week and get <span class="badge bg-secondary">20%</span> discount</p>
+      <div class="">
+        <div class="alert alert-secondary" role="alert">
+          <div class="center-form">
+            <form id="form-1" onsubmit="return sendMail(this);">
+              <input type="text" name="name" class="form-control" pattern="^[^\s][A-Za-z0-9\s]{5,50}$" id="fullname"
+                placeholder="Name (Min-5 Max-50 characters)" required />
+              <br>
+              <input type="text" name="emailaddress" class="form-control" id="emailaddress"
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Email" required />
+              <br>
+              <textarea rows="5" name="message" class="form-control" id="message"
+                placeholder="Writer your message here (Min-5 Max-400 characters)" minlength="5" maxlength="400"
+                required></textarea>
+              <button type="submit" id="button-1" class="btn btn-secondary btn-1 center-block">Send!</button>
+            </form>
           </div>
         </div>
       </div>
     </div>
-    <!--map-->
-    <div id="map"></div>
-
-    <footer class="container-fluid">
-      <div class="social-media no-gutters">
+  </div>
+  <!--Review-->
+  <div id="review" class="container-fluid no-gutters">
+    <div class="row block">
+      <div class="col-6">
         <div class="row">
-          <div class="col-12">
-            <ul id="links">
-              <li><a href="https://www.instagram.com/alquiler_armenia_quindio/" target="_blank"><i
-                    class="fab fa-instagram"></i></a></li>
-              <li><a
-                  href="https://www.airbnb.nl/rooms/31710601?guests=1&adults=1&s=67&unique_share_id=3d8610a9-d94c-49a6-8fe9-441ab7355180"
-                  target="_blank"><i class="fab fa-airbnb"></i></a></li>
-            </ul>
+          <div class="col-6 margin-image"><img class="round-image-1" src="assets/images/guy-image.png" alt="guest-mam">
           </div>
-          <div class="col-12">
-            <ul id="personal">
-
-              <li><i class="fas fa-map-marker-alt"></i> : 45 Norte, Armenia, Colombia </li>
-              <li><i class="fas fa-at"></i> : juliandavid.garcia@gmail.com</li>
-              <li><i class="fas fa-phone-alt"></i> : +31612767649</li>
-            </ul>
+          <div class="col-6 margin-paragraph">
+            <p>"Excellent communication, it helps a lot with what is needed. Recommended."</p>
           </div>
-
         </div>
       </div>
+      <div class="col-6 block">
+        <div class="row">
+          <div class="col-6 margin-image"><img class="round-image-1" src="assets/images/girl-image.png" alt="guest-mam">
+          </div>
+          <div class="col-6 margin-paragraph">
+            <p>"Everything was fantastic, good location, very clean, 100% attention, in short I would return"</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--map-->
+  <div id="map"></div>
+  <footer class="container-fluid">
+    <div class="social-media no-gutters">
+      <div class="row">
+        <div class="col-12">
+          <ul id="links">
+            <li><a href="https://www.instagram.com/alquiler_armenia_quindio/" target="_blank"><i
+                  class="fab fa-instagram"></i></a></li>
+            <li><a
+                href="https://www.airbnb.nl/rooms/31710601?guests=1&adults=1&s=67&unique_share_id=3d8610a9-d94c-49a6-8fe9-441ab7355180"
+                target="_blank"><i class="fab fa-airbnb"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12">
+          <ul id="personal">
+            <li><i class="fas fa-map-marker-alt"></i> : 45 Norte, Armenia, Colombia </li>
+            <li><i class="fas fa-at"></i> : juliandavid.garcia@gmail.com</li>
+            <li><i class="fas fa-phone-alt"></i> : +31612767649</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD6F2UYda2LUohDHbhWN4rVdmyiPNs7oMw&callback=initMap&libraries=&v=weekly"
+    async>
+    </script>
 
-    </footer>
-
-    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
-    <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD6F2UYda2LUohDHbhWN4rVdmyiPNs7oMw&callback=initMap&libraries=&v=weekly"
-      async></script>
-
-    <!--jquery-->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"></script>
-    <!--ajax-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"></script>
-    <!--Boostrap.4.0.0-->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"></script>
-    <!--Boostrap.5.0.1-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-      crossorigin="anonymous"></script>
-
+  <!--jquery-->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+  <!--ajax-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+  <!--Boostrap.4.0.0-->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+  <!--Boostrap.5.0.1-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
