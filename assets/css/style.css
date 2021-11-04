@@ -349,7 +349,7 @@ display: inline;
   font-weight: lighter;
 }
 #carousel{
-  height: 800px;
+  height: 755px;
   width:100%;
   background-color: #ffffff;
 }
@@ -968,21 +968,26 @@ hr{
   background-color: #ffc107;
   color: #000000;
 }
+#carousel {
+  height: 580px;
+  width: 100%;
+  background-color: #ffffff;
+}
 .margin-paragraph {
   margin-top: 20%;
   width: 60%;
   color: #ffff;
-  padding-left: 25%;
+  padding-left: 0%;
   text-align: center;
   width:40%;
   color: #ffff;
-  margin-left:40%;
+  margin-left:25%;
 }
 .round-image-1 {
   height: 100px;
   border-radius: 50%;
   margin-top: 4%;
-  margin-left: -70%;
+  margin-left: 0%;
   display: inline;
 }
 #review {
@@ -994,7 +999,7 @@ div#map {
   min-height: 360px;
   margin-top: 2%;
   width: 100%;
-  }
+}
 #personal {
   margin-top: 0;
   margin-bottom: 1rem;
