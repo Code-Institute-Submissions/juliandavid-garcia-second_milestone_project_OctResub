@@ -1123,9 +1123,9 @@ padding-left: 6.5%;
   margin-top: 0;
   margin-bottom: 1rem;
   margin-left: 2%;
-  margin-right: 8%;
+  margin-right: 10%;
   color: #ffffff;
-  font-size: 19px;
+  font-size: 20px;
 }
 }
 /* iphone x */
@@ -1134,9 +1134,9 @@ padding-left: 6.5%;
   margin-top: 0;
   margin-bottom: 1rem;
   margin-left: 2%;
-  margin-right: 8%;
+  margin-right: 9%;
   color: #ffffff;
-  font-size: 17px;
+  font-size: 18px;
 }
 }
 /* G4 width 360px */
@@ -1145,7 +1145,7 @@ padding-left: 6.5%;
   margin-top: 0;
   margin-bottom: 1rem;
   margin-left: 2%;
-  margin-right: 8%;
+  margin-right: 14%;
   color: #ffffff;
   font-size: 16px;
 }
@@ -1158,7 +1158,7 @@ padding-left: 6.5%;
   margin-left: 2%;
   margin-right: 8%;
   color: #ffffff;
-  font-size: 14px;
+  font-size: 15px;
 }
 }
 /* fold */
