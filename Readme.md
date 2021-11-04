@@ -1,23 +1,53 @@
 ![Responsiveness](Readme_images/responsiveness.png)
 - [Visit site](https://juliandavid-garcia.github.io/second_milestone_project/index.html)
 # Flats Armenia 
-This site has relevant iformation about the apartments rented by Flats Armenia. Here visitors can find a description of the facilities as well as inventory of some to the amenities they can find in the apartment. Guests can also find in this website a personlized map which can help them find the closest supermarkets, parkings, ATMs, etc. Through this page potencial visitors can preview and reserve via Airb&b, if they have an account on this plataform. 
+This site has relevant information about the apartments rented by Flats Armenia. Here visitors can find a description of the facilities as well as an inventory of some to the amenities offered in the apartment. 
+In order to help guests to move around easily we added a map of the area where visitors obtain information related to restaurants, supermarkets, parkings, ATMs, and some other places of interest 
 
-## UX
+Potential Visitor can contact the fleet manager to discuss about the availability, to obtain extra information or even to make a direct reservation. 
+However, Reservations are preferred via Airb&b
+Due to the security guarantees this platform offers. Therefore, This site is linked to the Flats Armenia Airb&b profile so, those visitors who already have an account on this platform can preview and reserve via Airb&b.
 
-This website is specially addressed to new guests and potencial visitors to let them have an idea of what they will find when arriving to the apartment, as well as to provide them with the most usefull infromation required when arriving to a new city. 
+## Index 
 
-Visitors can find in the interactive map the exact location of the appartament as well as those of some places of interets as museums, restaurants etc.
+- <a href="#ux">1. User experience (UX)</a>
+  - <a href="#Project">1.1. Project goals</a>
+  - <a href="#User-story">1.2 User stories</a>
+  - <a href="#Wireframes">1.3 Wireframes</a>
+  - <a href="#Design">1.4 Design</a>
+- <a href="#Features">2. Features</a>
+- <a href="#Technologies">3. Technologies used</a>
+- <a href="#Testing">4. Testing</a>
+- <a href="#Deployment">5. Deployment</a>
+- <a href="#Credits">6. Credits</a>
+- <a href="#Media">7. Media</a>
+- <a href="#Acknowledgements">8. Acknowledgements</a>
+- <a href="#Github">9. 9. Github</a>
+<span id="ux"></span>
+# UX 1.
 
-This site lets guests and potencial visitors to have a direct contact with the owner to solve any kind of questions that may arise.
+This website is specially addressed to new guests and potential visitors to let them have an idea of what they will find when arriving to the apartment, as well as to provide them with the most useful information required when arriving to a new city.
+Visitors can find in the interactive map the exact location of the apartment as well as those of some places of interest as museums, restaurants etc.
 
-## 1.1 User Story: 
+This site lets guests and potential visitors have a direct contact with the owner to solve any kind of questions that may arise.
+<span id="Project"></span>
+## 1. 1 Project goals
+- This website is specially addressed to guide guests during  their visit to the flat, as well as help potential visitors to make their mind when deciding to stay in the flat.
+
+- Be intuitive for users and easy to navigate.  
+
+- Inform users about what they will find when they come to the flat. 
+
+- Encourage people to visit the flat. 
+
+<span id="User-story"></span>
+## 1. 2 User Story: 
 ### As a guest I want to:
 - Find the address of the apartment 
 
 - See images of the apartment 
 
-- Find the instruction on how to arrive to the flat
+- Check peoples reviews
 
 - See the amenities provided 
 
@@ -29,51 +59,63 @@ This site lets guests and potencial visitors to have a direct contact with the o
 
 - Check the public transportation availability. 
 
-- have access to its social media
+- Have access to its social media
 
-## 1. 2  [Wireframes](wireframe.md)
+<span id="Wireframes"></span>
+## 1. 3  [Wireframes](wireframe.md)
 [See Wireframes ](wireframe.md)
 
 These wireframes where designed  with [Figma](https://www.figma.com/)
 which is a very instuitive prototyping tool that focuses in the user interface and user experience design.
 
-## 1.3. Design
+<span id="Design"></span>
+## 1. 4 Design
 
 This website was designed thinking on a minimalist concept which transmits serenity and tranquillity and which reflects what is like to be on the apartment. Therefore, all pages are diaphanous but functional, avoiding the overuse of colors which could be stressful  and overwhelming for the users.
-Hence, black, white and gray are the predominant colors.
-- The font: 
-Regarding the font "poppis" and "Heebo" were used due to the perfect contrast, they offer making the site look clean and ordered. 
-- Colors:
-   - Rgba (7, 7, 7, 0.1) 
-    - #ffffff (Font color)
-    - #black (slide right menu)
-    
-       Note: 
-    - Even though, there seem to be a wider range of color on the website it is due to the different opacity scales of some of these colors. 
+Hence, black, white and yellow are the predominant colors.
 
--  that must be in the following order: characters@characters.domain (characters followed by an @ sign, followed by more characters, and then a "."After the "." sign, add at least 2 letters from a to z:pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
-(Min-5 Max-50 characters)"
+- **The Font:**  
+  - Regarding the font "Roboto" and "Heebo" were used due to the perfect contrast, they offer making the site look clean and ordered. 
+
+- **Colors:**
+    -  **Black #000000:**  Color used for Navigation bar, Title color, Amenities background, Form alert background, Review section Background and Footer background.
+    - **White #FFFFFF:** Color used for body background color, Icons used in the Amenities section, font used in the Navigation bar. Background in the Gallery and Contact sections. 
+    - **Yellow #ffc107:** Color used for the badge, Form button, Icons in the amenities section when been hovered, Navigation links when hovered and to show the active class when a navigation link has been clicked. 
+    - **Gray #ced4da:** Color used for the placeholders in the Form.
+
+
+- **Input format:**
+    The form in the page count with some security features to guide the user to introduce the data in a secured and correct way: 
+    - **Email** box the users are required to enteran email in the  following order: characters@characters.domain (characters followed by an @ sign, followed by more characters, and then a "."After the "." sign, add at least 2 letters from a to z:pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">.
+
+    - **Name** in this box users need to add a name 
+    with a length of max-50 and min-5 characters. These characters have to be numbers and upper and lower case letters. Following the pattern="^[^\s][A-Za-z0-9\s]{5,50}$".
+
+    - **Message** in this box users can add the message to the administrator 
+    with a length of max-400 and min-5 characters. These characters can be numbers and upper and lower case letters.
+
+- **Alert:** when clicking on the icons located in the Amenities section the user will get an alert adding extra information related to each of the items selected. this is a feature that is only available for mobile devices since in the desktop version the icons alreay have an informative text below each icon. 
+     
 
 ## 2. Features
 
 ### 2.1. Existing features
 
- The User can find all the features of this page attached to the navigation bar which is integrated in the landing page in the desktop version. However, in the mobiledivices the feature are integrated in a hamburguer menu.
-  These features are accessible on every page of the website. Therefore, all of them are interconnected, letting the user move around the pages no matter his/her location. 
+ The User can find all the features of this page attached to the navigation bar which fixed on upper side of the website. This Navigation bar is only displayed on screens with a min-width 768px.For mobile divices (max-768px) the feature are integrated in a hamburguer menu.
+ These features are accessible on every page of the website. Therefore, all of them are interconnected, letting the user move around the pages no matter his/her location. 
 
-### 2.1.1 landing page:
+### 2.1.1 Landing page:
 
 This feature is the main page of the site.
-Here users will come across with a carousel with some of the most representative images of the apartment that is been introduced and a navigation bar that links to all the features available on the site.  It also counts wwith a sentence that describes what we want to trasnmite to the possible guests. 
+Here users will come across with an image of the apartment that is been introduced and a navigation bar that links to all the features available on the site.  It also counts with a sentence that describes what we want to trasnmite to the possible guests. 
 
 ### 2.1.2 Navigation bar:  
-Located in the top of the image contains the different sections of the website displayed on devices up to 576 PX
- Navigation buttons:  This is the navigation option displayed on devices smaller than 576 PX.
+Located in the top of the image contains the different sections of the website displayed on devices up to 768PX
+Navigation Hamburguer menu:  This is the navigation option displayed on devices smaller than 768PX.
         
 
-
 ### 2.1.3 Contact:
- This feature can be reached through the navigation bar/buttons. Here the user  has the information and tools required to reach the developer. Telephone number, E-mail, and a text box for the user to write directly to the developer.
+ This feature can be reached through the menu or just scrolling to the section. Here the user  has a form  to  E-mail  the administrator of the flat.
 
 ### 2.1.4 Social media: 
 Is located in the footer.
